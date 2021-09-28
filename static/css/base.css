@@ -22,11 +22,12 @@ body {
 .logo-font{
     text-transform: uppercase;
     
+
 }
 
-.main-logo-link {
-    width: fit-content;
-}
+
+
+
 
 .shop-now-button {
     background: #000;
@@ -75,5 +76,8 @@ body {
 
     .header-container {
         padding-top: 164px;
+    }
+    .navbar-expand-lg .navbar-nav .dropdown-menu {
+        width: 100%;
     }
 }
