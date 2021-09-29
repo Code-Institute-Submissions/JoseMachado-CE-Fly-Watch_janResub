@@ -1,0 +1,361 @@
+[{
+    "pk": 1,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5001340155",
+        "name": "Rolex GMT-Master Pepsi",
+        "description": "self - winding automatic watch, features a 40mm stainless steel case with a red and blue Pepsi bezel surrounding a black dial on a stainless steel Oyster bracelet with folding buckle. Functions include hours, minutes, seconds, date and GMT.",
+        "price": 312,
+        "category": 1,
+        "rating": 4.6,
+        "image": "rolex_gmtmasterpepsi.jpg"
+    }
+}, {
+    "pk": 2,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5001600425",
+        "name": "Rolex Cosmograph Daytona",
+        "description": "self-winding automatic watch, features a 40mm 18k Everose gold case with a black Cerachrom bezel surrounding a black dial on a black alligator strap with an 18k Everose gold deployant buckle. Functions include hours, minutes, small seconds, chronograph and tachymeter.",
+        "price": 625,
+        "category": 1,
+        "rating": 4.6,
+        "image": "rolex_daytona.jpg"
+    }
+}, {
+    "pk": 3,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5001730010",
+        "name": "Rolex Sky-Dweller",
+        "description": "self - winding automatic watch, features a 42mm 18k yellow gold case surrounding a silver dial on a brand new brown alligator strap with an 18k yellow gold deployant buckle. Functions include hours, minutes, seconds, annual calendar and GMT.",
+        "price": 520,
+        "category": 1,
+        "rating": 4.7,
+        "image": "rolex_skydweller.jpg"
+    }
+}, {
+    "pk": 4,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5001890157",
+        "name": "Patek Philippe Chronograph",
+        "description": "manual wind watch, features a 39.4mm platinum case surrounding a blue sunburst diamond dial on a blue alligator strap with a platinum Calatrava Cross deployant buckle. Functions include hours, minutes, small seconds, chronograph and tachymeter.",
+        "price": 1729,
+        "category": 2,
+        "rating": 3,
+        "image": "patekphilippe_chronograph.jpg"
+    }
+}, {
+    "pk": 5,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5002111605",
+        "name": "Patek Philippe Complications Annual Calendar Chronograph",
+        "description": "self-winding automatic watch, features a 40.5mm platinum case with a diamond bezel surrounding a blue diamond dial on a brand new blue alligator strap with a platinum and diamond Calatrava Cross deployant buckle. Functions include hours, minutes, small seconds, day, date, month, annual calendar and chronograph.",
+        "price": 1980,
+        "category": 2,
+        "rating": 5,
+        "image": "patekphilippe_complications_calendar.jpg"
+    }
+}, {
+    "pk": 6,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5002260206",
+        "name": "Patek Philippe Complications World Time",
+        "description": "self-winding automatic watch, features a 39.5mm platinum case surrounding a cloisonne enamel North Pole dial with on a platinum bracelet with folding buckle. Functions include hours, minutes, world time and am/pm indicator.",
+        "price": 2540,
+        "category": 2,
+        "rating": 4.7,
+        "image": "patekphilippe_complications.jpg"
+    }
+}, {
+    "pk": 7,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5002440521",
+        "name": "Audemars Piguet Concept Royal Oak Tourbillon",
+        "description": "manual wind watch, features a 44mm alacrite case with a titanium bezel surrounding a skeleton dial on a grey fabric strap with a titanium deployant buckle. Functions include hours, minutes, small seconds and tourbillon.",
+        "price": 2605,
+        "category": 3,
+        "rating": 4.4,
+        "image": "ap_concept.jpg"
+    }
+}, {
+    "pk": 8,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5002601115",
+        "name": "Audemars Piguet Royal Oak Tourbillon Chronograph",
+        "description": "manual wind watch, features a 44mm black ceramic case surrounding an openworked black satin-brushed dial on a black ceramic bracelet with folding buckle. Functions include hours, minutes, small seconds, chronograph and tourbillon.",
+        "price": 5104,
+        "category": 3,
+        "rating": 4.5,
+        "image": "ap_royaloak_tourbillon.jpg"
+    }
+}, {
+    "pk": 9,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5002690715",
+        "name": "Audemars Piguet Royal Oak Offshore Tourbillon Chronograph",
+        "description": "manual wind watch, features a 44mm 18k rose gold case with a black rubberized bezel surrounding a black Mega Tapiserrie dial on a black rubber strap with an 18k rose gold deployant buckle. Functions include hours, minutes, small seconds, chronograph and tourbillon.",
+        "price": 2020,
+        "category": 3,
+        "rating": 4.7,
+        "image": "ap_royaloak_offshore.jpg"
+    }
+}, {
+    "pk": 10,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5002701115",
+        "name": "IWC Portugieser Yacht Club Chronograph",
+        "description": "self - winding automatic watch, features a 45.4mm titanium case surrounding a black carbon fiber dial on a black rubber strap with a titanium deployant buckle. Functions include hours, minutes, small seconds and chronograph.",
+        "price": 520,
+        "category": 4,
+        "rating": 4.4,
+        "image": "iwc_yachtclub.jpg"
+    }
+}, {
+    "pk": 11,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5002761055",
+        "name": "IWC Portugieser Perpetual Calendar",
+        "description": "self - winding automatic watch, features a 44.2mm 18k rose gold case surrounding a silver dial on a brown alligator strap with an 18k rose gold deployant buckle. Functions include hours, minutes, day, date, month, moon phase, perpetual calendar and power reserve indicator.",
+        "price": 416,
+        "category": 4,
+        "rating": 3,
+        "image": "iwc_portugieser.jpg"
+    }
+}, {
+    "pk": 12,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5002820069",
+        "name": "IWC Pilot's Coulbe Chronograph",
+        "description": "self - winding automatic watch, features a 44mm black Ceratanium case surrounding a blue dial on a black rubber and fabric strap with a Ceratanium tang buckle. Functions include hours, minutes, small seconds, date, day and chronograph.",
+        "price": 250,
+        "category": 4,
+        "rating": 4.6,
+        "image": "iwc_pilot.jpg"
+    }
+}, {
+    "pk": 13,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5002820147",
+        "name": "Omega Constellation Globemaster Annual Calendar",
+        "description": "self - winding automatic watch, features a 41mm stainless steel case surrounding a silver Pie Pan dial on a brand new brown alligator strap with a stainless steel deployant buckle. Functions include hours, minutes, seconds, date and month.",
+        "price": 166,
+        "category": 5,
+        "rating": 3.2,
+        "image": "omega_globemaster.jpg"
+    }
+}, {
+    "pk": 14,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5002910572",
+        "name": "Omega Seamaster Diver 300m",
+        "description": "self - winding automatic watch, features a 42mm stainless steel case with a blue ceramic bezel surrounding a sun-brushed PVD chrome colour ceramic laser-engraved dial on a blue rubber strap with a stainless steel tang buckle. Functions include hours, minutes, seconds, date and helium release valve.",
+        "price": 125,
+        "category": 5,
+        "rating": 4.7,
+        "image": "omega_seamaster.jpg"
+    }
+}, {
+    "pk": 15,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5002990740",
+        "name": "Omega Speedmaster GMT Chronograph",
+        "description": "self - winding automatic watch, features a 44.25mm titanium case surrounding a black carbon fiber dial on a black rubber strap with a titanium deployant buckle. Functions include hours, minutes, small seconds, date, chronograph, GMT and tachymeter.",
+        "price": 135,
+        "category": 5,
+        "rating": 4.8,
+        "image": "omega_speedmaster.jpg"
+    }
+}, {
+    "pk": 16,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5003050248",
+        "name": "Hublot Big Bang Tourbillon Minute Repeater",
+        "description": "manual wind watch, features a 44mm carbon case surrounding a skeleton dial on a black gummy alligator strap with a black PVD coated stainless steel deployant buckle. Functions include hours, minutes, small seconds, tourbillon and minute repeater.",
+        "price": 2708,
+        "category": 6,
+        "rating": 4.4,
+        "image": "hublot_bigbang.jpg"
+    }
+}, {
+    "pk": 17,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5003070787",
+        "name": "Hublot Ferrari GT Chronograph Limited Edition",
+        "description": "self-winding automatic watch, features a 45mm silver stainless steel case surrounding a skeleton dial on a black rubber strap with black ceramic and black-plated titanium deployant buckle. Functions include hours, minutes, seconds, flyback chronograph and date.",
+        "price": 458,
+        "category": 6,
+        "rating": 4.4,
+        "image": "hublot_ferrari.jpg"
+    }
+}, {
+    "pk": 18,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5003090182",
+        "name": "Hublot Unico Perpetual Calendar",
+        "description": "self - winding automatic watch, features a 45mm 18k rose gold case with a black ceramic bezel surrounding a black skeleton dial on a black rubber strap with a titanium deployant buckle. Functions include hours, minutes, small seconds, day, date, month, moon phase, perpetual calendar and chronograph.",
+        "price": 875,
+        "category": 6,
+        "rating": 4.8,
+        "image": "hublot_unico.jpg"
+    }
+}, {
+    "pk": 19,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5003090186",
+        "name": "Ulysse Nardin Diver Blue Shark Limited Edition",
+        "description": "self - winding automatic watch, features a 42mm blue PVD coated stainless steel case surrounding a blue dial on a brand new navy blue fabric strap with a blue PVD coated stainless steel tang buckle. Functions include hours, minutes, seconds and date.",
+        "price": 104,
+        "category": 7,
+        "rating": 5,
+        "image": "ulysse_diver.jpg"
+    }
+}, {
+    "pk": 20,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5003161326",
+        "name": "Ulysse Nardin Marine Perpetual Limited Edition",
+        "description": "self-winding automatic watch, features a 45.8mm black rubberized stainless steel case with a black ceramic and diamond bezel surrounding a black skeleton dial on a black titanium and rubber bracelet with a blacksteel and titanium deployant buckle. Functions include hours, minutes, day, date, month and perpetual calendar.",
+        "price": 270,
+        "category": 7,
+        "rating": 4.7,
+        "image": "ulysse_marine.jpg"
+    }
+}, {
+    "pk": 21,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5003230723",
+        "name": "Ulysse Nardin El Toro GMT Perpetual Calendar",
+        "description": "self - winding automatic watch, features a 43mm 18k rose gold case with a black ceramic bezel surrounding a black dial on a black rubber strap with a black ceramic and titanium deployant buckle. Functions include hours, minutes, small seconds, day, date, month, perpetual calendar and GMT.",
+        "price": 406,
+        "category": 7,
+        "rating": 4.3,
+        "image": "ulysse_toro.jpg"
+    }
+}, {
+    "pk": 22,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5003270936",
+        "name": "Panerai Luminor Luna Rossa Chronograph Flyback",
+        "description": "self-winding automatic watch, features a 44mm black ceramic case surrounding a grey sail dial on a black leather strap with a titanium tang buckle. Functions include hours, minutes, small seconds and flyback chronograph.",
+        "price": 229,
+        "category": 8,
+        "rating": 5,
+        "image": "panerai_luminor.jpg"
+    }
+}, {
+    "pk": 23,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5003360384",
+        "name": "Panerai Radiomir Base Ceramica",
+        "description": "manual-wind watch, features a 45mm black ceramic case surrounding a black Paris hobnail dial on a brand new black Assolutamente strap with a black ceramic tang buckle. Functions include hours and minutes.",
+        "price": 125,
+        "category": 8,
+        "rating": 4.8,
+        "image": "panerai_radiomir.jpg"
+    }
+}, {
+    "pk": 24,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5003440111",
+        "name": "Panerai Submersible",
+        "description": "self-winding automatic watch, features a 47mm carbotech case surrounding a black dial on a black rubber strap with a titanium tang buckle. Functions include hours, minutes, small seconds and date.",
+        "price": 250,
+        "category": 8,
+        "rating": 3.8,
+        "image": "panerai_submersible.jpg"
+    }
+}, {
+    "pk": 25,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5003540313",
+        "name": "Breitling Breitlight Avenger Hurricane",
+        "description": "self-winding automatic watch, features a 50mm Breitlight case surrounding a yellow dial on a black Diver Pro III rubber strap with a Breitlight deployant buckle. Functions include hours, minutes, small seconds, date and chronograph.",
+        "price": 83,
+        "category": 9,
+        "rating": 3,
+        "image": "breitling_avenger.jpg"
+    }
+}, {
+    "pk": 26,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5003560513",
+        "name": "Breitling Bentley GMT Light Body Chronograph",
+        "description": "self-winding automatic watch, features a 49mm titanium case surrounding a tungsten grey dial on a black Bentley rubber strap with a titanium deployant buckle. Functions include hours, minutes, seconds, world time, date and chronograph.",
+        "price": 96,
+        "category": 9,
+        "rating": 4.4,
+        "image": "breitling_bentley.jpg"
+    }
+}, {
+    "pk": 27,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5003560948",
+        "name": "Breitling Transocean Unitime Chronograph",
+        "description": "self-winding automatic watch, features a 46mm stainless steel case surrounding a black World dial on a stainless steel Ocean Classic bracelet with folding buckle. Functions include hours, minutes, small seconds, date, chronograph and GMT.",
+        "price": 135,
+        "category": 9,
+        "rating": 5,
+        "image": "breitling_transocean.jpg"
+    }
+}, {
+    "pk": 28,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5003570628",
+        "name": "Bell & Ross BR-X1 R.S.20 Chronograph",
+        "description": "self - winding automatic watch, features a 45mm black titanium case with a ceramic bezel surrounding a skeleton dial on a black rubber strap with a black titanium tang buckle. Functions include hours, minutes, small seconds, date, chronograph and tachymeter.",
+        "price": 208,
+        "category": 10,
+        "rating": 4.3,
+        "image": "bell&ross_brx1.jpg"
+    }
+}, {
+    "pk": 29,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5003620308",
+        "name": "Bell & Ross BR03-92 Military Type GI JOE ",
+        "description": "self - winding automatic watch, features a 42mm black PVD coated stainless steel case surrounding a green dial on a brand new black rubber strap with a stainless steel tang buckle. Functions include hours, minutes, seconds and date.",
+        "price": 74,
+        "category": 10,
+        "rating": 4.6,
+        "image": "bell&ross_gijoe.jpg"
+    }
+}, {
+    "pk": 30,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5003690115",
+        "name": "Bell & Ross WW1 Heure Sautante",
+        "description": "self-winding automatic watch, features a 42mm platinum case surrounding a silver and grey opaline dial on a brand new grey alligator strap with a platinum tang buckle. Functions include jumping hours, minutes and power reserve indicator.",
+        "price": 312,
+        "category": 10,
+        "rating": 5,
+        "image": "bell&ross_ww1.jpg"
+    }
+}]
