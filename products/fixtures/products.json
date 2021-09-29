@@ -8,7 +8,7 @@
         "price": 312,
         "category": 1,
         "rating": 4.6,
-        "image": "rolex_gmtmasterpepsi.jpg"
+        "image": "rolex_gmtmasterpepsi.jpeg"
     }
 }, {
     "pk": 2,
@@ -20,7 +20,7 @@
         "price": 625,
         "category": 1,
         "rating": 4.6,
-        "image": "rolex_daytona.jpg"
+        "image": "rolex_daytona.jpeg"
     }
 }, {
     "pk": 3,
@@ -32,7 +32,7 @@
         "price": 520,
         "category": 1,
         "rating": 4.7,
-        "image": "rolex_skydweller.jpg"
+        "image": "rolex_skydweller.jpeg"
     }
 }, {
     "pk": 4,
@@ -44,7 +44,7 @@
         "price": 1729,
         "category": 2,
         "rating": 3,
-        "image": "patekphilippe_chronograph.jpg"
+        "image": "patekphilippe_chronograph.jpeg"
     }
 }, {
     "pk": 5,
@@ -56,7 +56,7 @@
         "price": 1980,
         "category": 2,
         "rating": 5,
-        "image": "patekphilippe_complications_calendar.jpg"
+        "image": "patekphilippe_complications_calendar.jpeg"
     }
 }, {
     "pk": 6,
@@ -68,7 +68,7 @@
         "price": 2540,
         "category": 2,
         "rating": 4.7,
-        "image": "patekphilippe_complications.jpg"
+        "image": "patekphilippe_complications.jpeg"
     }
 }, {
     "pk": 7,
@@ -80,7 +80,7 @@
         "price": 2605,
         "category": 3,
         "rating": 4.4,
-        "image": "ap_concept.jpg"
+        "image": "ap_concept.jpeg"
     }
 }, {
     "pk": 8,
@@ -92,7 +92,7 @@
         "price": 5104,
         "category": 3,
         "rating": 4.5,
-        "image": "ap_royaloak_tourbillon.jpg"
+        "image": "ap_royaloak_tourbillon.jpeg"
     }
 }, {
     "pk": 9,
@@ -104,7 +104,7 @@
         "price": 2020,
         "category": 3,
         "rating": 4.7,
-        "image": "ap_royaloak_offshore.jpg"
+        "image": "ap_royaloak_offshore.jpeg"
     }
 }, {
     "pk": 10,
@@ -116,7 +116,7 @@
         "price": 520,
         "category": 4,
         "rating": 4.4,
-        "image": "iwc_yachtclub.jpg"
+        "image": "iwc_yachtclub.jpeg"
     }
 }, {
     "pk": 11,
@@ -128,7 +128,7 @@
         "price": 416,
         "category": 4,
         "rating": 3,
-        "image": "iwc_portugieser.jpg"
+        "image": "iwc_portugieser.jpeg"
     }
 }, {
     "pk": 12,
@@ -140,7 +140,7 @@
         "price": 250,
         "category": 4,
         "rating": 4.6,
-        "image": "iwc_pilot.jpg"
+        "image": "iwc_pilot.jpeg"
     }
 }, {
     "pk": 13,
@@ -152,7 +152,7 @@
         "price": 166,
         "category": 5,
         "rating": 3.2,
-        "image": "omega_globemaster.jpg"
+        "image": "omega_globemaster.jpeg"
     }
 }, {
     "pk": 14,
@@ -164,7 +164,7 @@
         "price": 125,
         "category": 5,
         "rating": 4.7,
-        "image": "omega_seamaster.jpg"
+        "image": "omega_seamaster.jpeg"
     }
 }, {
     "pk": 15,
@@ -176,7 +176,7 @@
         "price": 135,
         "category": 5,
         "rating": 4.8,
-        "image": "omega_speedmaster.jpg"
+        "image": "omega_speedmaster.jpeg"
     }
 }, {
     "pk": 16,
@@ -188,7 +188,7 @@
         "price": 2708,
         "category": 6,
         "rating": 4.4,
-        "image": "hublot_bigbang.jpg"
+        "image": "hublot_bigbang.jpeg"
     }
 }, {
     "pk": 17,
@@ -200,7 +200,7 @@
         "price": 458,
         "category": 6,
         "rating": 4.4,
-        "image": "hublot_ferrari.jpg"
+        "image": "hublot_ferrari.jpeg"
     }
 }, {
     "pk": 18,
@@ -212,7 +212,7 @@
         "price": 875,
         "category": 6,
         "rating": 4.8,
-        "image": "hublot_unico.jpg"
+        "image": "hublot_unico.jpeg"
     }
 }, {
     "pk": 19,
@@ -224,7 +224,7 @@
         "price": 104,
         "category": 7,
         "rating": 5,
-        "image": "ulysse_diver.jpg"
+        "image": "ulysse_diver.jpeg"
     }
 }, {
     "pk": 20,
@@ -236,7 +236,7 @@
         "price": 270,
         "category": 7,
         "rating": 4.7,
-        "image": "ulysse_marine.jpg"
+        "image": "ulysse_marine.jpeg"
     }
 }, {
     "pk": 21,
@@ -248,7 +248,7 @@
         "price": 406,
         "category": 7,
         "rating": 4.3,
-        "image": "ulysse_toro.jpg"
+        "image": "ulysse_toro.jpeg"
     }
 }, {
     "pk": 22,
@@ -260,7 +260,7 @@
         "price": 229,
         "category": 8,
         "rating": 5,
-        "image": "panerai_luminor.jpg"
+        "image": "panerai_luminor.jpeg"
     }
 }, {
     "pk": 23,
@@ -272,7 +272,7 @@
         "price": 125,
         "category": 8,
         "rating": 4.8,
-        "image": "panerai_radiomir.jpg"
+        "image": "panerai_radiomir.jpeg"
     }
 }, {
     "pk": 24,
@@ -284,7 +284,7 @@
         "price": 250,
         "category": 8,
         "rating": 3.8,
-        "image": "panerai_submersible.jpg"
+        "image": "panerai_submersible.jpeg"
     }
 }, {
     "pk": 25,
@@ -296,7 +296,7 @@
         "price": 83,
         "category": 9,
         "rating": 3,
-        "image": "breitling_avenger.jpg"
+        "image": "breitling_avenger.jpeg"
     }
 }, {
     "pk": 26,
@@ -308,7 +308,7 @@
         "price": 96,
         "category": 9,
         "rating": 4.4,
-        "image": "breitling_bentley.jpg"
+        "image": "breitling_bentley.jpeg"
     }
 }, {
     "pk": 27,
@@ -320,7 +320,7 @@
         "price": 135,
         "category": 9,
         "rating": 5,
-        "image": "breitling_transocean.jpg"
+        "image": "breitling_transocean.jpeg"
     }
 }, {
     "pk": 28,
@@ -332,7 +332,7 @@
         "price": 208,
         "category": 10,
         "rating": 4.3,
-        "image": "bell&ross_brx1.jpg"
+        "image": "bell&ross_brx1.jpeg"
     }
 }, {
     "pk": 29,
@@ -344,7 +344,7 @@
         "price": 74,
         "category": 10,
         "rating": 4.6,
-        "image": "bell&ross_gijoe.jpg"
+        "image": "bell&ross_gijoe.jpeg"
     }
 }, {
     "pk": 30,
@@ -356,6 +356,6 @@
         "price": 312,
         "category": 10,
         "rating": 5,
-        "image": "bell&ross_ww1.jpg"
+        "image": "bell&ross_ww1.jpeg"
     }
 }]
