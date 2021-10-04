@@ -103,6 +103,11 @@ body {
     height: 140px;
 }
 
+.rolex-collections {
+    margin-top: 0;
+
+}
+
 .overlay {
     height: 100%;
     width: 100%;
@@ -146,4 +151,10 @@ body {
     body {
         height: calc(100vh - 116px);
     }
+}
+
+@media (min-width: 768px) {
+    .m-md-3 {
+        margin: 0 !important;
+    }   
 }
