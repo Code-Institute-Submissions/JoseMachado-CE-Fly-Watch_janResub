@@ -67,15 +67,41 @@ body {
 .nav-item:hover {
     
     color: #000 !important;
-    border: 1px dashed #fff;
-    ;
+  
+    border-bottom: 1px solid #fff;
+    border-bottom-width: 10%;
     
 }
+
+.image-headline  {
+    background: url('/media/omega3_watch.jpeg') no-repeat center;
+    
+}
+
+.overlay2 {
+    background-color: violet;
+    z-index: 1000;
+}
+
+.fa-star {
+    color: yellow;
+}
+
+.button-guide {
+    background-color: #fff;
+    color: #000;
+}
+
 
 .fixed-top.scrolled {
     background-color: #fff !important;
     transition: background-color 200ms linear;
-  }
+}
+
+.img-promotion {
+    width: 140px;
+    height: 140px;
+}
 
 .overlay {
     height: 100%;
@@ -109,5 +135,15 @@ body {
 
     .header-container {
         padding-top: 164px;
+    }
+}
+
+@media (max-width: 991px) {
+    .header-container{
+        padding-top: 116px;
+    }
+
+    body {
+        height: calc(100vh - 116px);
     }
 }
