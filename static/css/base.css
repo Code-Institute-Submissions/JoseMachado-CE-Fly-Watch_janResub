@@ -158,3 +158,18 @@ body {
         margin: 0 !important;
     }   
 }
+
+@media (max-width: 420px) {
+    ul {
+        font-size: 11px;
+        padding: 10px 0 0 0;
+    }
+
+    .navbar-toggler {
+        font-size: 12px;
+    }
+
+    .logo-h2 {
+        margin-top: 25px;
+    }
+}
