@@ -65,12 +65,9 @@ body {
 }
 
 .nav-item:hover {
-    
     color: #000 !important;
-  
-    border-bottom: 1px solid #fff;
-    border-bottom-width: 10%;
-    
+    border-top: 1px solid #fff;
+    border-top: 10%;
 }
 
 .image-headline  {
@@ -85,6 +82,14 @@ body {
 
 .fa-star {
     color: yellow;
+}
+
+.dropdown-menu {
+    border: 1px solid #fff !important;
+}
+
+.dropdown-item:hover {
+    color:#000 !important;
 }
 
 .button-guide {
