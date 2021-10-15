@@ -16,17 +16,17 @@
             <a class="logo-font font-weight-bold nav-link text-white mr-5" href="#" id="clothing-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Brands
             </a>
-            <div class="dropdown-menu bg-black border-0" aria-labelledby="clothing-link">
-                <a href="" class="dropdown-item text-white">AP</a>
-                <a href="" class="dropdown-item text-white">Bell&Ross</a>
-                <a href="" class="dropdown-item text-white">Breitling</a>
-                <a href="" class="dropdown-item text-white">Hublot</a>
-                <a href="" class="dropdown-item text-white">IWC</a>
-                <a href="" class="dropdown-item text-white">Omega</a>
-                <a href="" class="dropdown-item text-white">Panerai</a>
-                <a href="" class="dropdown-item text-white">Patek Phillippe</a>
-                <a href="" class="dropdown-item text-white">Rolex</a>
-                <a href="" class="dropdown-item text-white">Ulysse</a>
+            <div class="dropdown-menu bg-black border-0" aria-labelledby="brand-link">
+                <a href="{% url 'products' %}?category=audemars_piguet" class="dropdown-item text-white">Audemars Piguet</a>
+                <a href="{% url 'products' %}?category=bell_and_ross" class="dropdown-item text-white">Bell&Ross</a>
+                <a href="{% url 'products' %}?category=breitling" class="dropdown-item text-white">Breitling</a>
+                <a href="{% url 'products' %}?category=hublot" class="dropdown-item text-white">Hublot</a>
+                <a href="{% url 'products' %}?category=iwc" class="dropdown-item text-white">IWC</a>
+                <a href="{% url 'products' %}?category=omega" class="dropdown-item text-white">Omega</a>
+                <a href="{% url 'products' %}?category=panerai" class="dropdown-item text-white">Panerai</a>
+                <a href="{% url 'products' %}?category=patek_philippe" class="dropdown-item text-white">Patek Phillippe</a>
+                <a href="{% url 'products' %}?category=rolex" class="dropdown-item text-white">Rolex</a>
+                <a href="{% url 'products' %}?category=ulysse_nardin" class="dropdown-item text-white">Ulysse</a>
             </div>
         </li>
 
