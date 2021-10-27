@@ -21,7 +21,7 @@
                 </a>
                 {% else %}
                 <a href="{% url 'product_detail' product.id %}">
-                    <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}noimage.png" alt="{{ product.name }}">
+                    <img class="card-img-top img-fluid" src="{{ MEDIA_URL }} noimage.png" alt="{{ product.name }}">
                 </a>
                 {% endif %}
             </div>
@@ -43,7 +43,30 @@
                 <small class="text-muted text-white">No rating</small>
                 {% endif %}
                 <p class="mt-3 text-white">{{ product.description }}</p>
-                <a href="{% url 'products' %}" class="btn button-guide text-uppercase text-black">Back to watches</a>
+                <form class="form" action="{% url 'add_to_bag' product.id %}" method="POST">
+                    {% csrf_token %} <!-- This allows django submits the form -->
+                    <div class="form-row">
+                        <div class="col-12">
+                            <p class="mt-3 text-white">Quantity:</p>
+                            <div class="form-group w-50">
+                                <div class="input-group">
+                                    <input class="form-control qty_input" type="number" name="quantity" value="1" min="1" max="99" data-item_id="{{ product.id }}" id="id_qty_{{ product.id }}"> 
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <a href="{% url 'products' %}" class="btn btn-black button-guide   text-uppercase mt-5">
+                                <span class="icon">
+                                    <i class="fas fa-chevron-left"></i>
+                                </span>
+                                <span class=" button-guide text-uppercase text-black">Back to shopping</span>
+                            </a>
+                            <input type="submit" class="btn btn-black button-guide text-uppercase text-black mt-5" value="Add to Bag">    
+                        </div>
+                        <input type="hidden" name="redirect_url" value="{{ request.path }}">
+                    </div>
+                </form>
+                
             </div>
         </div>
     </div>
