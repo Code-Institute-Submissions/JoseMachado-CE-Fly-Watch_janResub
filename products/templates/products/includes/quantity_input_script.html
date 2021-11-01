@@ -1,0 +1,16 @@
+<script type="text/javascript">
+// increment javascript function
+    $('.increment-qty').click(function(e){
+        e.preventDefault();
+        var closesInput = $(this).closest('.input-group').find('.qty_input')[0];
+        var currentValue = parseInt($(closesInput).val());
+        $(closesInput).val(currentValue + 1)
+    })
+// decrement javascript function
+    $('.decrement-qty').click(function(e){
+        e.preventDefault();
+        var closesInput = $(this).closest('.input-group').find('.qty_input')[0];
+        var currentValue = parseInt($(closesInput).val());
+        $(closesInput).val(currentValue - 1)
+    })
+</script>
