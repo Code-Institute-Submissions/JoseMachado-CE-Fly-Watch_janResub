@@ -65,6 +65,10 @@ body {
     color: white;
 }
 
+.btn-white {
+    background-color: #fff;
+}
+
 .text-black {
     color: #000 !important;
 }
@@ -114,7 +118,17 @@ body {
     background-color: #fff;
     color: #000;
 }
+.update-link {
+    margin-right: 15px;
+}
 
+.update-link, .remove-item {
+    cursor: pointer;
+}
+
+.top-table-header {
+    margin-top: 20px;
+}
 
 .fixed-top.scrolled {
     background-color: #fff !important;
