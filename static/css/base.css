@@ -273,7 +273,7 @@ a.category-badge > span.badge:hover {
 
 @media (max-width: 420px) {
     ul {
-        font-size: 11px;
+        font-size: 10px;
         padding: 10px 0 0 0;
     }
 
