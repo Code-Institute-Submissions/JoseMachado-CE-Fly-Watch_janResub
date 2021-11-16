@@ -1,20 +1,19 @@
 from django.shortcuts import render, redirect, reverse, get_object_or_404
 from django.contrib import messages
 from django.conf import settings
-from .password import stripe_secret_key, stripe_public_key
+
 from .forms import OrderForm
-from bag.contexts import bag_contents
 from .models import Order, OrderLineItem
 from products.models import Product
-
+from bag.contexts import bag_contents
 
 import stripe
 
 
 def checkout(request):
-    public_key = stripe_public_key
-    secret_key = stripe_secret_key
-    
+    stripe_public_key = settings.STRIPE_PUBLIC_KEY
+    stripe_secret_key = settings.STRIPE_SECRET_KEY
+
     if request.method == 'POST':
         bag = request.session.get('bag', {})
 
@@ -42,7 +41,7 @@ def checkout(request):
                             quantity=item_data,
                         )
                         order_line_item.save()
-
+                        
                 except Product.DoesNotExist:
                     messages.error(request, (
                         "One of the products in your bag wasn't found in our database. "
@@ -53,7 +52,6 @@ def checkout(request):
 
             request.session['save_info'] = 'save-info' in request.POST
             return redirect(reverse('checkout_success', args=[order.order_number]))
-
         else:
             messages.error(request, 'There was an error with your form. \
                 Please double check your information.')
@@ -66,7 +64,7 @@ def checkout(request):
         current_bag = bag_contents(request)
         total = current_bag['grand_total']
         stripe_total = round(total * 100)
-        stripe.api_key = secret_key
+        stripe.api_key = stripe_secret_key
         intent = stripe.PaymentIntent.create(
             amount=stripe_total,
             currency=settings.STRIPE_CURRENCY,
@@ -107,4 +105,3 @@ def checkout_success(request, order_number):
     }
 
     return render(request, template, context)
-
