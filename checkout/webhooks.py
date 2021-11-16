@@ -33,6 +33,7 @@ def webhook(request):
     except Exception as e:
         return HttpResponse(content=e, status=400)
 
+
     # Handle the event
     print('success')
     return HttpResponse(status=200)
