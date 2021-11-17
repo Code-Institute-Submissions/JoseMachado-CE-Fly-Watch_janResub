@@ -63,4 +63,3 @@ def remove_item_from_bag(request, item_id):
     except Exception as e:
         return HttpResponse(status=500)
         messages.error(request, f'It was not possible to remove item: {e}')
-
