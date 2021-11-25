@@ -10,7 +10,8 @@ body {
 }
 
 .image-back {
-    background: url('{{MEDIA_URL}}rolex_daytona.jpeg') no-repeat center center fixed;
+    background: no-repeat center center fixed;
+    
 	background-size: cover;
 }
 
