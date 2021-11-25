@@ -10,8 +10,7 @@ body {
 }
 
 .image-back {
-    background: no-repeat center center fixed;
-    
+    background: url('{{ MEDIA_URL }}img2 (1).jpeg') no-repeat center center fixed;
 	background-size: cover;
 }
 
