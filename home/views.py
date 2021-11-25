@@ -15,12 +15,12 @@ def index(request):
     # homeProducts.append(product_one)
     # homeProducts.append(product_two)
     # homeProducts.append(product_three)
-    products = Product.objects.all()[:3]
+    # products = Product.objects.all()[:3]
 
     template = 'home/index.html'
-    context = {
+    # context = {
         
-        'homeProducts': products,
-    }
+    #     'homeProducts': products,
+    # }
 
-    return render(request, context, template)
+    return render(request, template)
