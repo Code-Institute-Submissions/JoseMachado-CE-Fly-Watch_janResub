@@ -3,18 +3,11 @@ html {
 }
 
 body {
-	
-    
+	background: url('{{MEDIA_URL}}img2 (1).jpeg') no-repeat center center fixed;
+	background-size: cover;
+    height: calc(100vh - 164px);
     color: #555;
     font-family: "Lato";
-}
-
-.image-back {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: calc(100vh - 164px);
-    margin: 0;
 }
 
 /* from Bulma */
