@@ -6,7 +6,7 @@ from django.shortcuts import render
 def index(request):
     """ A view to return the index page """
 
-    homeProducts=[]
+    homeProducts = []
     product_one = '/media/rolex_daytona.jpeg'
     product_two = '/media/rolex_daytona.jpeg'
     product_three = '/media/rolex_daytona.jpeg'
@@ -15,12 +15,10 @@ def index(request):
     homeProducts.append(product_two)
     homeProducts.append(product_three)
 
-    products = homeProducts.objects.all()
-
     template = 'home/index.html'
     context = {
-        'products': products,
-        'homeProducts':homeProducts,
+        
+        'homeProducts': homeProducts,
     }
 
     return render(request, context, template)
