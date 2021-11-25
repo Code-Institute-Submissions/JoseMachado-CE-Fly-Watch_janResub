@@ -1,4 +1,5 @@
 from django.shortcuts import render
+from products.models import Product
 
 # Create your views here.
 
@@ -14,11 +15,12 @@ def index(request):
     # homeProducts.append(product_one)
     # homeProducts.append(product_two)
     # homeProducts.append(product_three)
+    products = Product.objects.all()[:3]
 
     template = 'home/index.html'
-    # context = {
+    context = {
         
-    #     'homeProducts': homeProducts,
-    # }
+        'homeProducts': products,
+    }
 
-    return render(request, template)
+    return render(request, context, template)
