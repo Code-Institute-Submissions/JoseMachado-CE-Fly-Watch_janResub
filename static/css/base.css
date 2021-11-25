@@ -9,10 +9,7 @@ body {
     font-family: "Lato";
 }
 
-.image-back {
-    background: url('{{ MEDIA_URL }}img2 (1).jpeg') no-repeat center center fixed;
-	background-size: cover;
-}
+
 
 /* from Bulma */
 .icon {
