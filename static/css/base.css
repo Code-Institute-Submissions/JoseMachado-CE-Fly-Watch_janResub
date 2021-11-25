@@ -11,7 +11,7 @@ body {
 
 .image-back {
     background: no-repeat center center fixed;
-    
+    height: calc(100vh - 164px);
 	background-size: cover;
 }
 
