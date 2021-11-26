@@ -1,15 +1,13 @@
 html {
     height: 100%;
 }
-
 body {
-	background: url('/media/img2.jpeg');
+	background: url('/media/img2.jpeg') no-repeat center center fixed;
 	background-size: cover;
     height: calc(100vh - 164px);
     color: #555;
     font-family: "Lato";
 }
-
 /* from Bulma */
 .icon {
     align-items: center;
@@ -18,43 +16,32 @@ body {
     height: 1.5rem;
     width: 1.5rem;
 }
-
 .logo-font {
     text-transform: uppercase;
 }
-
 .main-logo-link {
     width: fit-content;
 }
-
 .shop-now-button {
     background: black;
     color: white;
     min-width: 260px;
 }
-
 .btn-outline-black {
     background: white;
     color: black !important;
     border: 1px solid black;
 }
-
 .btn-black:hover,
 .btn-black:active,
 .btn-black:focus {
     background: black;
     color: white !important;
 }
-
-
-
 .btn-black {
     background: black;
     color: white;
 }
-
-
-
 .shop-now-button:hover,
 .shop-now-button:active,
 .shop-now-button:focus,
@@ -64,31 +51,25 @@ body {
     background: #222;
     color: white;
 }
-
 .btn-white {
     background-color: #fff;
 }
-
 .text-black {
     color: #000 !important;
 }
-
 .message-container {
     position: fixed;
     top: 72px;
     right: 15px;
     z-index: 99999999;
 }
-
 .custom-toast {
     overflow: visible;
     margin-top: 40px;
 }
-
 .toast-capper {
     height: 2px;
 }
-
 .arrow-up {
     width: 0; 
     height: 0; 
@@ -99,87 +80,68 @@ body {
     top: -10px;
     right: 36px;
 }
-
 /* Convenience classes - colors copied from Bootstrap */
 .arrow-primary {
     border-bottom-color: #007bff !important;
 }
-
 .arrow-secondary {
     border-bottom-color: #6c757d !important;
 }
-
 .arrow-success {
     border-bottom-color: #28a745 !important;
 }
-
 .arrow-danger {
     border-bottom-color: #dc3545 !important;
 }
-
 .arrow-warning {
     border-bottom-color: #ffc107 !important;
 }
-
 .arrow-info {
     border-bottom-color: #17a2b8 !important;
 }
-
 .arrow-light {
     border-bottom-color: #f8f9fa !important;
 }
-
 .arrow-dark {
     border-bottom-color: #343a40 !important;
 }
-
 .bag-notification-wrapper {
     height: 100px;
     overflow-x: hidden;
     overflow-y: auto;
 }
-
 .border-black {
     border: 1px solid black !important;
 }
-
 .bg-black {
     background: #000 !important;
 }
-
 .navbar-toggler {
     border: 2px solid white;
 }
-
 .nav-item:hover {
     color: #000 !important;
     border-top: 1px solid #fff;
     border-top: 10%;
 }
-
 .image-headline  {
     background: url('/media/omega3_watch.jpeg') no-repeat center center fixed;
 	background-size: cover;
     
 }
-
 .overlay2 {
     background-color: violet;
     z-index: 1000;
 }
-
 .fa-star {
     color: yellow;
 }
-
 .dropdown-menu {
     border: 1px solid #fff !important;
 }
-
 .dropdown-item:hover {
     color:#000 !important;
 }
-
 .button-guide {
     background-color: #fff;
     color: #000;
@@ -187,7 +149,6 @@ body {
 .update-link {
     margin-right: 15px;
 }
-
 .update-link, .remove-item {
     cursor: pointer;
 }
@@ -237,7 +198,7 @@ body {
 
 .allauth-form-inner-content input[type='submit']:hover {	
 	color: #fff;
-    
+
     border-color: #222;
 }
 
@@ -252,27 +213,21 @@ input[name='q']::placeholder {
 .top-table-header {
     margin-top: 20px;
 }
-
 .fixed-top.scrolled {
     background-color: #fff !important;
     transition: background-color 200ms linear;
 }
-
 a.category-badge > span.badge:hover {
     background-color: #fff !important;
     color: #000 !important;
 }
-
 .img-promotion {
     width: 140px;
     height: 140px;
 }
-
 .rolex-collections {
     margin-top: 0;
-
 }
-
 .overlay {
     height: 100%;
     width: 100%;
@@ -283,16 +238,13 @@ a.category-badge > span.badge:hover {
     z-index: -1;
     color:#fff;
 }
-
 /* --------------------------------- Media queries */
-
 /* Slightly larger container on xl screens */
 @media (min-width: 1200px) {
   .container {
     max-width: 80%;
   }
 }
-
 /* fixed top navbar only on medium and up */
 @media (min-width: 992px) {
     .fixed-top-desktop-only {
@@ -302,65 +254,18 @@ a.category-badge > span.badge:hover {
         left: 0;
         z-index: 1030;
     }
-
     .header-container {
         padding-top: 164px;
     }
 }
-
 @media (max-width: 991px) {
     .header-container{
         padding-top: 116px;
     }
-
     body {
         height: calc(100vh - 116px);
     }
-
-    .display-4.logo-font.text-black {
-        font-size: 2rem;
-    }
-
-    .nav-link {
-        padding: 0.1rem;
-        margin-top: 15px;
-        text-align: center;
-        align-items: center;
-    }
-
-    .nav-link ul {
-        margin-left: auto;
-    }
-
-    .nav-link i.fa-lg {
-        font-size: 1rem;
-        text-align: center;
-    }
-
-    .navbar-toggler {
-        padding: .6rem .6rem;
-        font-size: 1rem;
-    }
-
-    #delivery-banner h4 {
-        font-size: .9rem;
-    }
-
-    .navbar-toggler {
-        font-size: 12px;
-    }
-
-    .logo-h2 {
-        margin-top: 25px;
-    }
-
-    .h-90 {
-        height: 50%;
-    }
-
-    
 }
-/*
 @media (min-width: 768px) {
     .m-md-3 {
         margin: 0 !important;
@@ -370,4 +275,18 @@ a.category-badge > span.badge:hover {
         height: 70%;
     }
 }
-
+@media (max-width: 420px) {
+    ul {
+        font-size: 10px;
+        padding: 10px 0 0 0;
+    }
+    .navbar-toggler {
+        font-size: 12px;
+    }
+    .logo-h2 {
+        margin-top: 25px;
+    }
+    .h-90 {
+        height: 50%;
+    }
+}
