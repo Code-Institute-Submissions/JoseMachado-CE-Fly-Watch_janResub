@@ -11,7 +11,9 @@ import subprocess
 import sys
 from os.path import exists
 
-BASE_URL = "https://raw.githubusercontent.com/Code-Institute-Org/gitpod-full-template/master/"
+BASE_URL = (
+    "https://raw.githubusercontent.com/Code-Institute-Org/gitpod-full-template/master/"
+)
 
 BACKUP = True
 MIGRATE = False
@@ -19,55 +21,27 @@ CURRENT_VERSION = 1.0
 THIS_VERSION = 1.0
 
 
-MIGRATE_FILE_LIST = [{"filename": ".theia/settings.json",
-                      "url": ".vscode/settings.json"
-                      },
-                     {"filename": ".gitpod.yml",
-                      "url": ".gitpod.yml"
-                      },
-                     {"filename": ".gitpod.dockerfile",
-                      "url": ".gitpod.dockerfile"
-                      },
-                     {"filename": ".theia/heroku_config.sh",
-                      "url": ".vscode/heroku_config.sh"
-                      },
-                      {"filename": ".theia/uptime.sh",
-                      "url": ".vscode/uptime.sh"
-                      },
-                     {"filename": ".theia/init_tasks.sh",
-                      "url": ".vscode/init_tasks.sh"
-                      }]
+MIGRATE_FILE_LIST = [
+    {"filename": ".theia/settings.json", "url": ".vscode/settings.json"},
+    {"filename": ".gitpod.yml", "url": ".gitpod.yml"},
+    {"filename": ".gitpod.dockerfile", "url": ".gitpod.dockerfile"},
+    {"filename": ".theia/heroku_config.sh", "url": ".vscode/heroku_config.sh"},
+    {"filename": ".theia/uptime.sh", "url": ".vscode/uptime.sh"},
+    {"filename": ".theia/init_tasks.sh", "url": ".vscode/init_tasks.sh"},
+]
 
-UPGRADE_FILE_LIST = [{"filename": ".vscode/client.cnf",
-                      "url": ".vscode/client.cnf"
-                      },
-                     {"filename": ".vscode/mysql.cnf",
-                      "url": ".vscode/mysql.cnf"
-                      },
-                     {"filename": ".vscode/settings.json",
-                      "url": ".vscode/settings.json"
-                      },
-                     {"filename": ".vscode/launch.json",
-                      "url": ".vscode/launch.json"
-                      },
-                     {"filename": ".gitpod.yml",
-                      "url": ".gitpod.yml"
-                      },
-                     {"filename": ".gitpod.dockerfile",
-                      "url": ".gitpod.dockerfile"
-                      },
-                     {"filename": ".vscode/heroku_config.sh",
-                      "url": ".vscode/heroku_config.sh"
-                      },
-                     {"filename": ".vscode/init_tasks.sh",
-                      "url": ".vscode/init_tasks.sh"
-                      },
-                     {"filename": ".vscode/uptime.sh",
-                      "url": ".vscode/uptime.sh"
-                      },
-                     {"filename": ".vscode/arctictern.py",
-                      "url": ".vscode/arctictern.py"
-                      }]
+UPGRADE_FILE_LIST = [
+    {"filename": ".vscode/client.cnf", "url": ".vscode/client.cnf"},
+    {"filename": ".vscode/mysql.cnf", "url": ".vscode/mysql.cnf"},
+    {"filename": ".vscode/settings.json", "url": ".vscode/settings.json"},
+    {"filename": ".vscode/launch.json", "url": ".vscode/launch.json"},
+    {"filename": ".gitpod.yml", "url": ".gitpod.yml"},
+    {"filename": ".gitpod.dockerfile", "url": ".gitpod.dockerfile"},
+    {"filename": ".vscode/heroku_config.sh", "url": ".vscode/heroku_config.sh"},
+    {"filename": ".vscode/init_tasks.sh", "url": ".vscode/init_tasks.sh"},
+    {"filename": ".vscode/uptime.sh", "url": ".vscode/uptime.sh"},
+    {"filename": ".vscode/arctictern.py", "url": ".vscode/arctictern.py"},
+]
 
 FINAL_LINES = "\nexport POST_UPGRADE_RUN=1\nsource ~/.bashrc\n"
 
@@ -85,8 +59,7 @@ def needs_upgrade():
     else:
         THIS_VERSION = 1.0
         with open(".vscode/version.txt", "w") as f:
-            f.write(str(THIS_VERSION))
-    
+            f.write(str(THIS_VERSION))    
     r = requests.get(BASE_URL + ".vscode/version.txt")
     CURRENT_VERSION = float(r.content)
     print(f"Upstream version: {CURRENT_VERSION}")
@@ -184,7 +157,9 @@ if __name__ == "__main__":
     if not BACKUP:
         print("If the --nobackup switch is provided, then changed files will not be backed up.")
     if not MIGRATE:
-        print("If the --migrate switch is provided, the repo will be migrated from Theia to VS Code")
+        print(
+            "If the --migrate switch is provided, the repo will be migrated from Theia to VS Code"
+        )
 
     print()
 
