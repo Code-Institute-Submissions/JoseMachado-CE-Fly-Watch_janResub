@@ -7,18 +7,74 @@
 Welcome to FlyWatch.
 
 Come to our website to find the most exclusives watches in the market.
-Welcome to Casa Pedra Nobre, a bed & breakfast at the Silver Coast in Portugal.  
-Have look at our website and discover what Casa Pedra Nobre and the Silver Coast has to offer.  
-Book your favorite room, scroll down the MUST see, eat and do page and start planning your perfect stay in Portugal.   
-We hope to welcome you on one of your Portugal trips in the near future.
+It works with Stripe to make the process easier and safer.
 
-This project was developed as my final project to complete the Full Stack Web Development course at Code Institute.   
-I challenged myself for this last project by going out of the scope of the course because this project is close to my heart.   
-This bed & breakfast belongs to my parents for which I did the start up in 2015.   
-I managed the bed & breakfast for more than 2 years after which I passed it on to my parents to start my next adventure.  
-You can find the original website here [Casa Pedra Nobre](https://casapedranobre.pt/).
+This is not an online store therefore, it will not process any order.
+It's the final project from the code institute software development course.
 
-Thank you for visiting my project!  
 If you have any feedback or questions, head over to my GitHub contact details and feel free to reach out to me.
 
 ---
+<a></a>
+
+## Table of contents 
+* [UX](#ux)
+    * [User Goals](#user-goals)
+    * [User Stories](#user-stories)
+    * [Site Owners Goals](#site-owners-goals)
+    * [User Requirements and Expectations](#user-requirements-and-expectations)
+        * [Requirements](#requirements)
+        * [Expectations](#expectations)
+    * [Design Choices](#design-choices)
+        * [Fonts](#fonts)
+        * [Colors](#colors)
+        * [Structure](#structure)
+* [Wireframes and Flowcharts](#wireframes-and-flowcharts)
+    * [Wireframes](#wireframes)
+    * [Flowcharts](#flowcharts)
+    * [Database Structure](#database-structure)
+* [Features](#features)
+    * [Existing Features](#existing-features)
+    * [Features to be implemented](#features-to-be-implemented)
+* [Technologies used](#technologies-used)
+    * [Languages](#languages)
+    * [Libraries and Frameworks](#libraries-and-frameworks)
+    * [Tools](#tools)
+* [Testing](#testing)
+* [Bugs](#bugs)
+* [Deployment](#deployment)
+    * [Local Deployment](#local-deployment)
+    * [Heroku Deployment](#heroku-deployment)
+* [Credits](#credits)
+
+--- 
+
+<a name="ux"></a>
+
+## **UX**
+
+<a></a>
+
+### **User Goals**
+
+The home page should be very attractive in order to take the possible customer to an order.
+The webstore should work well on all devices.
+The webstore should contain information of all producuts shown.
+The payment should be easy, quick and safe.
+
+<a></a>
+
+### **User Stories**
+
+As a user:
+
+A user wants the webstore to be very attractive so they can make an order.
+A user wants to have information on the products that is shown on the webstore.
+A user wants to see any sale either on the product or for delivery.
+A user wants to make a payment online with credit cards.
+A user wants to look for watches based on price, brand or other category.
+
+### **Site owners Goals**
+
+As an owner:
+
