@@ -78,3 +78,62 @@ A user wants to look for watches based on price, brand or other category.
 
 As an owner:
 
+The owner wants to sell the products available on the webstore.
+The owner wants to make the webstore popular on the internet.
+The owner wants to see all the orders made through the website.
+The owner wants to be able to upload or delete a products on their website.
+The owner wants to the possibility of updating a product on the website.
+
+<a></a>
+
+<a></a>
+
+### **User Requirements and Expectations**
+
+<a></a>
+
+#### Requirements
+
+The webstore has to be easy to be navigated on.
+The webstore have to have colors with contrast.
+The products on the website have to easy to be found.
+Images of the products have to be up to date.
+
+<a></a>
+
+#### Expectations
+
+The webstore will not have broken pages when displayed in differents devices such as tablets, iphones and laptops.
+The webstore has to have its links working and that the links take the customer to the right and expected place.
+Webstore is in line with the customer's journey.
+The website has show the products prices and the prices updated when the customer change their order.
+
+<a></a>
+
+### **Design Choices**
+
+The main colours of the webstore is black and white. 
+
+I used the [Coolors](https://coolors.co/ "Coolors.co") to come up with the color pallette.
+
+<a></a>
+
+#### Colors
+
+Main colors used for the webstore is:
+
+- White (#fff)
+- Black (#000)
+
+Other than these main colors there are a few other colors that dont make huge difference to the website.
+
+<a></a>
+
+#### Fonts
+
+The font used for this website was the 'Roboto' from [Google Fonts](https://fonts.google.com/ "Google Fonts").
+
+<a></a>
+
+#### Structure
+
