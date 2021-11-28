@@ -142,6 +142,11 @@ body {
 .dropdown-item:hover {
     color:#000 !important;
 }
+
+span .adjust-bag-hover:hover {
+    background-color: #fff;
+    color: #000; 
+}
 .button-guide {
     background-color: #fff;
     color: #000;
@@ -198,13 +203,9 @@ body {
 
 .allauth-form-inner-content input[type='submit']:hover {	
 	color: #fff;
-
     border-color: #222;
 }
 
-.allauth-form-inner-content a {
-	color: #17a2b8; /* text-info */
-}
 
 input[name='q']::placeholder {
     color: #aab7c4;
@@ -221,6 +222,15 @@ a.category-badge > span.badge:hover {
     background-color: #fff !important;
     color: #000 !important;
 }
+
+.panel-footer {
+    align-items: center;
+}
+
+.my-4 {
+    margin-top: 0;
+}
+
 .img-promotion {
     width: 140px;
     height: 140px;
@@ -241,9 +251,7 @@ a.category-badge > span.badge:hover {
 /* --------------------------------- Media queries */
 /* Slightly larger container on xl screens */
 @media (min-width: 1200px) {
-  .container {
-    max-width: 80%;
-  }
+  
 }
 /* fixed top navbar only on medium and up */
 @media (min-width: 992px) {
@@ -257,6 +265,11 @@ a.category-badge > span.badge:hover {
     .header-container {
         padding-top: 164px;
     }
+
+    .container {
+        max-width: 80%;
+    }
+
 }
 @media (max-width: 991px) {
     .header-container{
@@ -296,16 +309,35 @@ a.category-badge > span.badge:hover {
 }
 @media (max-width: 420px) {
     ul {
+        font-size: 15px;
+        padding: 10px 0 0 0;
+    }
+    .navbar-toggler {
+        font-size: 10px;
+    }
+
+    .logo-h2 {
+        margin-top: 25px;
+    }
+    .h-90 {
+        height: 50%;
+    }
+
+   
+}
+
+@media (max-width: 320px) {
+    ul {
         font-size: 10px;
         padding: 10px 0 0 0;
     }
     .navbar-toggler {
         font-size: 12px;
     }
-    .logo-h2 {
-        margin-top: 25px;
-    }
-    .h-90 {
-        height: 50%;
+
+  
+
+    h5 > .logo-font {
+        font-size: 10px;
     }
 }

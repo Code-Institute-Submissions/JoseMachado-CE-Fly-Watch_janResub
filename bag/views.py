@@ -7,13 +7,14 @@ from products.models import Product
 
 # Create your views here.
 
-
+"""Function to view bag"""
 def view_bag(request):
     """ A view that renders the bag contents page """
 
     return render(request, 'bag/bag.html')
 
 
+"""Function to add products to bag"""
 def add_to_bag(request, item_id):
     """ Add a quantity of the specified product to the shopping bag """
 
@@ -35,6 +36,7 @@ def add_to_bag(request, item_id):
     return redirect(redirect_url)
 
 
+"""Function to update the bag"""
 def adjust_bag(request, item_id):
     """ Make the quantity of certain product correct """
 
@@ -57,6 +59,7 @@ def adjust_bag(request, item_id):
     return redirect(reverse('view_bag'))
 
 
+"""Function to remove products from the bag"""
 def remove_item_from_bag(request, item_id):
     """ Make the quantity of certain product correct """
     try:
