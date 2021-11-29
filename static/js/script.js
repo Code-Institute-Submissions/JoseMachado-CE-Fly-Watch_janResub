@@ -4,6 +4,7 @@ $(document).ready(function() {
        $(".search-box").toggle();
        $("input[type='text']").focus();
      });
+    $(".accordion-button").toggle();
 
  });
 

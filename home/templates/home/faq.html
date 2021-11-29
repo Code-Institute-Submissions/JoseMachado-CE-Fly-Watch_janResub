@@ -1,0 +1,111 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block page_header %}
+<div class="header-container">
+    <div class="row">
+        <div class="col"></div>
+    </div>
+</div>
+{% endblock %}
+
+{% block content %}
+<div class="overlay"></div>
+<div class="container-fluid mb-5">
+    <div class="row">
+        <div class="col text-center mt-3 mt-2">
+            <h2 class="logo-font logo-h2 text-white">FAQs</h2>
+        </div>
+    </div>
+
+    <div class="accordion container mt-4" id="accordionExample">
+        <div class="card">
+            <div class="card-header" id="headingOne">
+                <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseOne"
+                        aria-expanded="True" aria-controls="collapseOne">
+                        My order hasn't arrived yet?  <i class="fas fa-arrow-down"></i> 
+                    </button>
+                </h5>
+            </div>
+
+            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                <div class="card-body">
+                    Attached to your dispatch order is a tracking number. You can track where your order is through the courrier provided by the website.. If you cannot get tracking information and it has been longer than: 10 working days, please contact our customer service team who will investigate the missing parcel with the relevant courier.<br>
+                    <small>This is not a real website - FlyWatch</small>
+                </div>
+                
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="headingTwo">
+                <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                        data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        What if my watch is delivered broken? <i class="fas fa-arrow-down"></i>
+                    </button>
+                </h5>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                <div class="card-body">
+                    If you suspect your item is faulty please contact us by email: flywatch@flywatch.com<br>
+                    <small>This is not a real website - FlyWatch</small>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="headingThree">
+                <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                        data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Do you sell fake products? <i class="fas fa-arrow-down"></i>
+                    </button>
+                </h5>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                <div class="card-body">
+                    Our products are 100% original.<br>
+                    <small>This is not a real website - FlyWatch</small>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="headingFour">
+                <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                        data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        Do you sell second hand watches <i class="fas fa-arrow-down"></i>
+                    </button>
+                </h5>
+            </div>
+            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                <div class="card-body">
+                    We only sell brand new watches.<br>
+                    <small>This is not a real website - FlyWatch</small>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="headingFive">
+                <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                        data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                        Can I pay by cheque? <i class="fas fa-arrow-down"></i>
+                    </button>
+                </h5>
+            </div>
+            <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+                <div class="card-body">
+                    No. We only sell our products with credit cards.<br>
+                    <small>This is not a real website - FlyWatch</small>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
+
+{% block postloadjs %}
+
+{% endblock %}

@@ -30,15 +30,23 @@ body {
     min-width: 260px;
 }
 .btn-outline-black {
-    background: #fff;;
+    background: #fff;
     color: #000 !important;
     border: 1px solid #000;
 }
+
+.btn-outline-black:hover {
+    background: #000;
+    color: #fff !important;
+    border: 1px solid #fff;
+}
+
 .btn-black:hover,
 .btn-black:active,
 .btn-black:focus {
     background: #000;
     color: #fff !important;
+    border: 1px solid #fff; 
 }
 .btn-black {
     background: #000;
@@ -121,11 +129,30 @@ body {
 .navbar-toggler {
     border: 2px solid white;
 }
+
 .nav-item:hover {
     color: #000 !important;
     border-top: 1px solid #fff;
     border-top: 10%;
 }
+
+.footer-nav-item .nav-link:hover {
+    border-bottom: 1px solid #fff;
+}
+
+
+
+.accordion .btn-link {
+    color: #000;
+    text-decoration: none;
+    list-style: none;
+}
+
+.accordion .card-body {
+    background: #000;
+    color: #fff;
+}
+
 .image-headline  {
     background: url('/media/omega3_watch.jpeg') no-repeat center center fixed;
 	background-size: cover;
