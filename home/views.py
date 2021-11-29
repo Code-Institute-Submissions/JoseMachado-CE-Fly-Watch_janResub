@@ -14,3 +14,10 @@ def faq(request):
     template = 'home/faq.html'
     
     return render(request, template)
+
+
+def blog(request):
+    """Watches blog"""
+    template = 'home/blog.html'
+    
+    return render(request, template)

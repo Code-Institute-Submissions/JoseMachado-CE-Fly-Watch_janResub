@@ -141,11 +141,15 @@ body {
 }
 
 
-
 .accordion .btn-link {
     color: #000;
     text-decoration: none;
     list-style: none;
+}
+
+.img-feat {
+    width: 300px;
+    height: 300px;
 }
 
 .accordion .card-body {
