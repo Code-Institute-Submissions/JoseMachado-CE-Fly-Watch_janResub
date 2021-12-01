@@ -1,8 +1,8 @@
 # **FlyWatch**
 
-![Mock up FlyWatch]()
+![Mock up FlyWatch](images-readme/mockimageFlywatch.PNG)
 
-## **Goal for this project** 
+## **FlyWatch** 
 
 Welcome to FlyWatch.
 
@@ -136,4 +136,29 @@ The font used for this website was the 'Roboto' from [Google Fonts](https://font
 <a></a>
 
 #### Structure
+
+The webstore will start with the land page which contains the navigation on top of the background image.
+Other than land page, the website also has the following pages:
+
+* ### Home Page
+    The home page is the main page of the project. It has to big pictures on the background of the website. It has an appealing design which can bring possible customers to an order.
+
+* ### All Products
+    It's a page with all the products that the website can offer the customers. The user can also filter the search by price, rating and brands.
+
+* ### Brands
+    It's a page that takes the customer to a specific chosen brand by the customer.
+
+* ### Watches Around the World
+    This page is a mini blog which contains more details about 3 specific products.
+
+* ### Product detail
+    This page is a page with the specific details of a product chosen by the customer.
+
+* ### Bag
+    This page has the products details along the price and delivery information. The customer can also update the order or delete it. 
+
+* ### Checkout
+    This page the customer can go ahead the their order and place the order.
+
 
