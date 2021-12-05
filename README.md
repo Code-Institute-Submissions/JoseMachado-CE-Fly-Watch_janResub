@@ -253,7 +253,6 @@ There is a function in the bag that saves the products that were not bought thro
 * [Checkout](#reservation)
 * [Profile](#profile)
 * [Navigation](#navigation)
-* [Social Media](#social-media)
 * [Footer](#footer)
 * [Reservations overview for Admin ](#reservations-overview-for-admin)
 
@@ -270,12 +269,16 @@ I have also tested how the home page display on microsoft edge and google chrome
 #### What did I test?
 * Quality and display of hero image
 * Display of carousel  
+* Products on the bottom of the page
 
 #### Conclusion
 The 2 background images look good in all devices.
 The carousel image from the blog page looks also good.  
 The carousel from the blog page will not display on small screen which looks good.
 Carousel resizes the height depending of the content of the slide.
+The products on the bottom of the page had their url wrong. I have fixed the code adding the right url to them so they could show on the homepage.
+
+![Products Failing](images-readme/products-failing.png) 
 
 ### **Functionality**
 Button 'Coming soon' on the home page works as it is expected to work taking the customer to the products page. 
@@ -283,7 +286,110 @@ Disabled carousel on the blog page for small screens. It looks better on big scr
 
 The right/left carousel arrows work as it is expected to work. There are 2 pictures in this carousel.
 
-### **Lighthouse report**
+
+
+
+### **User Experience**
+#### User Story: The webstore has to be attractive so the customer can see themselves wearing the watches.
+The big and close background image on the home pages gives the "fancy" feeling to the customer which can give high changes to a probable order.
+When the user scroll down there is a second image that overflow the other image and gives the customer that feeling of surprise.
+
+
+#### User Story: I want to have know some history about the products
+There is a page on the webstore which is a small blog with a few products on it. It tells the story of specific products and it makes the customer feel a bit closer to the webstore.
+
+## Products
+### Responsiveness
+#### Where did I test?
+
+I have tested the page with the home products on all types of devices such as Desktop, tablet and iphone.
+
+
+#### What did I test?
+* The quality of the watches displayed on the products page
+* Responsiveness of the additional information text
+
+#### Conclusion
+The products that are displayed on the products page are very in terms of image quality. They are displayed with col-lg-4 when displayed in big screens and then the number of products shown on the page are reduced according to the size of the screen that they are displayed on.
+The numbers and information are very clear and very proportional to the size of the sreen.
+
+
+### Functionality
+In order to make the products being displayed very well distribuited on the page, I have decided to use the row and col systems which makes the number of items on each page being calculated according to the size of the device screen.
+
+## Checkout
+### Responsiveness
+#### Where did I test?
+I have tested the page with the home products on all types of devices such as Desktop, tablet and iphone.
+
+#### What did I test?
+#### Step 1: Select the watch to buy
+* Image quality of the product displayed on the page.
+* Correct product info being displayed.
+
+#### Step 2: Display of the product after being in the checkout bag
+* Display of data information from step 1.
+* Availability of chaging the number of watches.
+
+
+#### Step 3: Show checkout form to the customer
+* Checkout form being displayed with all information to be filled out.
+* Order summary being displayed on the page to let the customer know what they are buying.
+
+
+#### Step 4: Show the order details after placing an order
+* Show customer the order details.
+
+
+#### Conclusion
+
+
+Hero image is of high quality and date input fields for check-in and check-out are responsive across devices. 
+In order to have enough space for the reservation data, the hero image is 100vh.   
+On step 2, the data from step 1 is displayed in a disabled state with a nice button to go back to step 1. 
+Rooms are displayed nicely and react responsive across various browsers and devices. 
+On small devices, image will be displayed on top of the text. On medium and large devices, the images will be displayed on the left of the text. 
+
+On large devices, reservation overview on the checkout page is displayed on the left with the form on the right. 
+On small and medium devices, the reservation overview is displayed on top of the form. 
+
+On the checkout success page, the reservation overview is nicely displayed into various sections. 
+The whole reservation process is responsive across browsers and devices. 
+
+### Functionality
+#### Step 1: Select check-in & check-out
+* Flash message when user tries to select check-in and/or check-out data in the past
+* Flash message when user tries to select check-in date after check-out date 
+* Check out date automatically updates when user fills in check in date to check in date + 1
+* Button to proceed to next step works as planned
+* Limited reservations section to maximum 28 days
+
+#### Step 2: Display available and unavailable rooms based on availability
+* For each room I have selected 1 main image which is being displayed for each room
+* The user is able to select multiple rooms
+* The user is only allowed to select the maximum possible occupancy for each room
+* Search again button to go back to step 1 to change the data
+
+#### Step 3: Show reservation overview to user + reservation form
+* Overview of reservation data + room overview
+* Reservation form that is pre-filled when user is logged in
+* When user is not logged in, a link to register or login is being displayed below the form
+* Save info functionality which saves the user info when logged in 
+* Payment form not being displayed when user is the superuser, this was done to allow the property to make reservations for guests without having to go through the payment.
+    This can be specifically useful when guests would try to make a reservation by phone.
+* User is allowed to fill in numbers as well as letters on ETA field. This allow answers like 'Between 14h00 and 15h00'
+
+#### Step 4: Show reservation overview to user after payment was successful. 
+* Overview of reserved room is being displayed with the relevant information concerning the reservations
+* Policies are correctly being displayed to remind guests
+
+
+For the reservation procedure, they are still quite some points of improvement that I see for the future. 
+Currently this website is very weak for overbooking possibilities. Ideally right before the payment is taken, an additional check in database should be performed.
+This to prevent that the booking can go through while it might be booked by someone else 2 minutes before. 
+
+What would be convenient for the future as well, is that when the user fills in check-in and check-out date and selects a room, that this room would be reserved for about 10/15 minutes.
+This reduces the chance that the room wouldn't be available anymore upon checkout. 
 
 
 
