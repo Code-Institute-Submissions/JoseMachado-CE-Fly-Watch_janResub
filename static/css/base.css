@@ -281,10 +281,7 @@ a.category-badge > span.badge:hover {
     color:#fff;
 }
 /* --------------------------------- Media queries */
-/* Slightly larger container on xl screens */
-@media (min-width: 1200px) {
-  
-}
+
 /* fixed top navbar only on medium and up */
 @media (min-width: 992px) {
     .fixed-top-desktop-only {
@@ -364,10 +361,8 @@ a.category-badge > span.badge:hover {
         padding: 10px 0 0 0;
     }
     .navbar-toggler {
-        font-size: 12px;
+        font-size: 18px;
     }
-
-  
 
     h5 > .logo-font {
         font-size: 10px;

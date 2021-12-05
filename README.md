@@ -342,54 +342,81 @@ I have tested the page with the home products on all types of devices such as De
 
 
 #### Conclusion
+The quality of products being displayed on the checkou page is outstanding.
+The products are easy to be manipulated in terms of updating the number of watches that the customer want to go ahead placing the order.
+If the customer wants to change the quantity of watches that they want to buy, the whole information about the order will change automatically being displayed on the page. It gives the customer more trust on the website.
+The checkout form is also displayed well on the checkout page. The form is a crispy form which is easier to have the website being built on.
+The bag app had a few templates created in order to make the display of the form better organised on different device screens.
+The order details is also shown well on the page after the order is placed successfully.
 
-
-Hero image is of high quality and date input fields for check-in and check-out are responsive across devices. 
-In order to have enough space for the reservation data, the hero image is 100vh.   
-On step 2, the data from step 1 is displayed in a disabled state with a nice button to go back to step 1. 
-Rooms are displayed nicely and react responsive across various browsers and devices. 
-On small devices, image will be displayed on top of the text. On medium and large devices, the images will be displayed on the left of the text. 
-
-On large devices, reservation overview on the checkout page is displayed on the left with the form on the right. 
-On small and medium devices, the reservation overview is displayed on top of the form. 
-
-On the checkout success page, the reservation overview is nicely displayed into various sections. 
-The whole reservation process is responsive across browsers and devices. 
 
 ### Functionality
-#### Step 1: Select check-in & check-out
-* Flash message when user tries to select check-in and/or check-out data in the past
-* Flash message when user tries to select check-in date after check-out date 
-* Check out date automatically updates when user fills in check in date to check in date + 1
-* Button to proceed to next step works as planned
-* Limited reservations section to maximum 28 days
+#### Step 1: Select the watch to buy
+* Flash message when the customer adds a watch to the checkout bag.
+* Product info being displayed right on the page through the function in the app.
 
-#### Step 2: Display available and unavailable rooms based on availability
-* For each room I have selected 1 main image which is being displayed for each room
-* The user is able to select multiple rooms
-* The user is only allowed to select the maximum possible occupancy for each room
-* Search again button to go back to step 1 to change the data
+#### Step 2: Display of the product after being in the checkout bag
+* Product is displayed on the page with the correct info.
+* Option to update or delete are displayed on the page.
+* Flash message if the customer either delete or update the order.
 
-#### Step 3: Show reservation overview to user + reservation form
-* Overview of reservation data + room overview
-* Reservation form that is pre-filled when user is logged in
-* When user is not logged in, a link to register or login is being displayed below the form
-* Save info functionality which saves the user info when logged in 
-* Payment form not being displayed when user is the superuser, this was done to allow the property to make reservations for guests without having to go through the payment.
-    This can be specifically useful when guests would try to make a reservation by phone.
-* User is allowed to fill in numbers as well as letters on ETA field. This allow answers like 'Between 14h00 and 15h00'
+#### Step 3: Show checkout form to the customer
+* Checkout form is shown on the page after the customer choose the product that they want.
+* Order summary is also displayed on the page.
+* The crispy form is the form that shows on the page and it contains function to not allow the customer go ahead with the order if there is some important information missing.
+* The form will be auto filled if the customer has already an account registered with the webstore.
 
-#### Step 4: Show reservation overview to user after payment was successful. 
-* Overview of reserved room is being displayed with the relevant information concerning the reservations
-* Policies are correctly being displayed to remind guests
+#### Step 4: Show the order details after placing an order
+* Order details are show on the page after the order goes through.
 
 
-For the reservation procedure, they are still quite some points of improvement that I see for the future. 
-Currently this website is very weak for overbooking possibilities. Ideally right before the payment is taken, an additional check in database should be performed.
-This to prevent that the booking can go through while it might be booked by someone else 2 minutes before. 
+## Profile
+### Responsiveness
+#### Where did I test?
+I have tested the page with the home products on all types of devices such as Desktop, tablet and iphone.
 
-What would be convenient for the future as well, is that when the user fills in check-in and check-out date and selects a room, that this room would be reserved for about 10/15 minutes.
-This reduces the chance that the room wouldn't be available anymore upon checkout. 
+#### What did I test?
+* Profile form
+* Right information being displayed on the page
+* Order history
+
+
+#### Conclusion
+The profile page is supposed to show the customer details after they added their own information to the website.
+It also supposed to show the customer order history on the page which can remind the customer of a specific order and then the change of repeating that same order.
+
+### Functionality
+The customer information is displayed on the website if the customer is already registered on the website.
+If the customer is a new the form will be there to be filled out and then in the next time when the customer places an order, their details will be saved.
+The order history is there also to let the customer know about their last orders.
+
+![Form order](images-readme/form-order.png) 
+
+## Navigation 
+### Responsiveness
+#### Where did I test?
+I have tested the page with the home products on all types of devices such as Desktop, tablet and iphone.
+
+#### What did I test?
+* Display of nav links on large devices
+* Display of hamburger icon and the links
+* Buttons throughout the website 
+
+#### Conclusion
+The navigation looks very well organised on big screens. On small screens the navigation happend to look a little bit off because of the size of nav links on the nav.
+
+![Nav off](images-readme/navbroken.png) 
+
+The buttons look very organised and there is a good contrast between the buttons and the background page which makes the buttons very presentable.
+
+### Functionality
+The navbar works well on all devices screens. All the links in the navbar work taking the customer to the right places. 
+The navbar collapses in a good way which makes the website very smooth.
+The issue presented above happened because of the size of the nav links. I left these nav links with a smaller size and they got to fit well in the navbar.
+
+![Nav working](images-readme/nav-working.png) 
+
+
 
 
 
