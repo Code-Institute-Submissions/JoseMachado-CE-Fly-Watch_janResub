@@ -639,9 +639,12 @@ This set up will allow your site to use Postgres in deployment and sqlite3 in de
 ```
 
 
-[Back to Top](#table-of-contents)
+## **Credits**
 
-<a></a>
+I wanted to start giving credits to Code Institute for giving me this opportunity to do this course and see how this course played a big role in my life. I wanted to thank all the people that work for Code Institute, all the tutors and the other staff that make the life of students a way better and smother.
+I wanted to thank again my tutor https://github.com/eventyret, for giving me all the support needed to finish the website. I wanted to thank also Code Institute and Slack for all support. And God for make this all achievable.
+After Code Institute I wanted to thank God for all the patience and time put on this course.
+
 
 
 
