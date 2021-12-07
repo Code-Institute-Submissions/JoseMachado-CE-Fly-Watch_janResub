@@ -125,6 +125,8 @@ Main colors used for the webstore is:
 - White (#fff)
 - Black (#000)
 
+![Products Failing](images-readme/flywatch_main_colors.png) 
+
 Other than these main colors there are a few other colors that dont make huge difference to the website.
 
 <a></a>
@@ -168,7 +170,9 @@ Other than land page, the website also has the following pages:
 
 ### **Wireframes**
 I have used [Balsamic](https://balsamiq.com/wireframes/) to create wireframes for my webstore.
-[Landing / Home page](wireframes/home.png) 
+### [Desktop Wireframe](wireframes/desktop.png)
+### [Tablet Wireframe](wireframes/tablet.png)
+### [Phone Wireframe](wireframes/mobile.png)
 
 ### **Flowcharts**
 
