@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
 
+/* Default */
+
 html {
     height: 100%;
 }
+
 body {
 	background: url('/media/img2.jpeg') no-repeat center center fixed;
 	background-size: cover;
@@ -10,7 +13,23 @@ body {
     font-family: "Lato";
     font-family: 'Roboto', sans-serif;
 }
-/* from Bulma */
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background: #000;
+    z-index: -1;
+    color:#fff;
+}
+
+.my-4 {
+    margin-top: 0;
+}
+
+/* logo css */
 .icon {
     align-items: center;
     display: inline-flex;
@@ -18,17 +37,22 @@ body {
     height: 1.5rem;
     width: 1.5rem;
 }
+
 .logo-font {
     text-transform: uppercase;
 }
+
 .main-logo-link {
     width: fit-content;
 }
+
+/* buttons */
 .shop-now-button {
     background: #000;
     color: #fff;
     min-width: 260px;
 }
+
 .btn-outline-black {
     background: #fff;
     color: #000 !important;
@@ -48,10 +72,17 @@ body {
     color: #fff !important;
     border: 1px solid #fff; 
 }
+
+.button-guide {
+    background-color: #fff;
+    color: #000;
+}
+
 .btn-black {
     background: #000;
     color: #fff;
 }
+
 .shop-now-button:hover,
 .shop-now-button:active,
 .shop-now-button:focus,
@@ -61,25 +92,31 @@ body {
     background: #000;
     color: #fff;
 }
+
 .btn-white {
     background-color: #fff;
 }
+
 .text-black {
     color: #000 !important;
 }
+
 .message-container {
     position: fixed;
     top: 72px;
     right: 15px;
     z-index: 99999999;
 }
+
 .custom-toast {
     overflow: visible;
     margin-top: 40px;
 }
+
 .toast-capper {
     height: 2px;
 }
+
 .arrow-up {
     width: 0; 
     height: 0; 
@@ -120,12 +157,15 @@ body {
     overflow-x: hidden;
     overflow-y: auto;
 }
+
 .border-black {
     border: 1px solid #000 !important;
 }
+
 .bg-black {
     background: #000 !important;
 }
+
 .navbar-toggler {
     border: 2px solid white;
 }
@@ -133,23 +173,13 @@ body {
 .nav-item:hover {
     color: #000 !important;
     border-top: 1px solid #fff;
-    border-top: 10%;
 }
 
-.footer-nav-item .nav-link:hover {
-    border-bottom: 1px solid #fff;
-}
-
-
+/* FAQ */
 .accordion .btn-link {
     color: #000;
     text-decoration: none;
     list-style: none;
-}
-
-.img-feat {
-    width: 300px;
-    height: 300px;
 }
 
 .accordion .card-body {
@@ -157,20 +187,36 @@ body {
     color: #fff;
 }
 
+
+/* FAQ */
+.img-feat {
+    width: 300px;
+    height: 300px;
+}
+
 .image-headline  {
     background: url('/media/omega3_watch.jpeg') no-repeat center center fixed;
 	background-size: cover;
-    
 }
 
+.img-promotion {
+    width: 140px;
+    height: 140px;
+}
 
+/* Products */
 .fa-star {
     color: #ffc107;
+}
+
+.rolex-collections {
+    margin-top: 0;
 }
 
 .dropdown-menu {
     border: 1px solid #fff !important;
 }
+
 .dropdown-item:hover {
     color:#000 !important;
 }
@@ -179,10 +225,7 @@ span .adjust-bag-hover:hover {
     background-color: #fff;
     color: #000; 
 }
-.button-guide {
-    background-color: #fff;
-    color: #000;
-}
+
 .update-link {
     margin-right: 15px;
 }
@@ -190,6 +233,7 @@ span .adjust-bag-hover:hover {
     cursor: pointer;
 }
 
+/* Allauth templates */
 .allauth-form-inner-content p {
     margin-top: 1.5rem;
     color: #6c757d;
@@ -246,40 +290,27 @@ input[name='q']::placeholder {
 .top-table-header {
     margin-top: 20px;
 }
+
 .fixed-top.scrolled {
     background-color: #fff !important;
     transition: background-color 200ms linear;
 }
+
 a.category-badge > span.badge:hover {
     background-color: #fff !important;
     color: #000 !important;
 }
 
+/* Footer */
 .panel-footer {
     align-items: center;
 }
 
-.my-4 {
-    margin-top: 0;
+.footer-nav-item .nav-link:hover {
+    border-bottom: 1px solid #fff;
 }
 
-.img-promotion {
-    width: 140px;
-    height: 140px;
-}
-.rolex-collections {
-    margin-top: 0;
-}
-.overlay {
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    position: fixed;
-    background: #000;
-    z-index: -1;
-    color:#fff;
-}
+
 /* --------------------------------- Media queries */
 
 /* fixed top navbar only on medium and up */
