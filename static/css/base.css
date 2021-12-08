@@ -76,6 +76,13 @@ body {
 .button-guide {
     background-color: #fff;
     color: #000;
+    border: 1px solid #fff;
+}
+
+.button-guide:hover {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #fff;
 }
 
 .btn-black {
@@ -309,7 +316,6 @@ a.category-badge > span.badge:hover {
 .footer-nav-item .nav-link:hover {
     border-bottom: 1px solid #fff;
 }
-
 
 /* --------------------------------- Media queries */
 
