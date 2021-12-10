@@ -1,8 +1,8 @@
-# **FlyWatch**
+# [FlyWatch](https://flywatch-jm.herokuapp.com/)
 
 ![Mock up FlyWatch](images-readme/mockimageFlywatch.PNG)
 
-## **FlyWatch** 
+## [FlyWatch](https://flywatch-jm.herokuapp.com/) 
 
 Welcome to FlyWatch.
 
@@ -59,7 +59,7 @@ If you have any feedback or questions, head over to my GitHub contact details an
 
 The home page should be very attractive in order to take the possible customer to an order.
 The webstore should work well on all devices.
-The webstore should contain information of all producuts shown.
+The webstore should contain information of all products shown.
 The payment should be easy, quick and safe.
 
 <a></a>
@@ -103,7 +103,7 @@ Images of the products have to be up to date.
 
 #### Expectations
 
-The webstore will not have broken pages when displayed in differents devices such as tablets, iphones and laptops.
+The webstore will not have broken pages when displayed in different devices such as tablets, iphones and laptops.
 The webstore has to have its links working and that the links take the customer to the right and expected place.
 Webstore is in line with the customer's journey.
 The website has show the products prices and the prices updated when the customer change their order.
@@ -263,6 +263,8 @@ I have tested all the html files using [HTML Validator](https://validator.w3.org
 I have tested all the CSS files using  [CSS Validator](https://jigsaw.w3.org/css-validator/).
 I have tested all the JS files using [Javascript Validator](https://jshint.com/).
 
+![CSS Validation](images-readme/cssvalidation.PNG)
+
 ## Homepage
 ### **Responsiveness**
 #### Where did I test?
@@ -314,11 +316,11 @@ I have tested the page with the home products on all types of devices such as De
 
 #### Conclusion
 The products that are displayed on the products page are very in terms of image quality. They are displayed with col-lg-4 when displayed in big screens and then the number of products shown on the page are reduced according to the size of the screen that they are displayed on.
-The numbers and information are very clear and very proportional to the size of the sreen.
+The numbers and information are very clear and very proportional to the size of the screen.
 
 
 ### Functionality
-In order to make the products being displayed very well distribuited on the page, I have decided to use the row and col systems which makes the number of items on each page being calculated according to the size of the device screen.
+In order to make the products being displayed very well distributed on the page, I have decided to use the row and col systems which makes the number of items on each page being calculated according to the size of the device screen.
 
 ## Checkout
 ### Responsiveness
@@ -332,7 +334,7 @@ I have tested the page with the home products on all types of devices such as De
 
 #### Step 2: Display of the product after being in the checkout bag
 * Display of data information from step 1.
-* Availability of chaging the number of watches.
+* Availability of changing the number of watches.
 
 
 #### Step 3: Show checkout form to the customer
@@ -345,7 +347,7 @@ I have tested the page with the home products on all types of devices such as De
 
 
 #### Conclusion
-The quality of products being displayed on the checkou page is outstanding.
+The quality of products being displayed on the checkout page is outstanding.
 The products are easy to be manipulated in terms of updating the number of watches that the customer want to go ahead placing the order.
 If the customer wants to change the quantity of watches that they want to buy, the whole information about the order will change automatically being displayed on the page. It gives the customer more trust on the website.
 The checkout form is also displayed well on the checkout page. The form is a crispy form which is easier to have the website being built on.
