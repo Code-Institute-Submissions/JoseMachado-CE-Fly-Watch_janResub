@@ -14,3 +14,14 @@ def posts_flywatch(request):
     }
 
     return render(request, 'blog/blog.html', context)
+
+
+def blog_ind(request, post_id):
+    """ page will return the individual product """
+    post = get_object_or_404(PostBlog, pk=post_id)
+
+    context = {
+        'post': post,
+    }
+
+    return render(request, 'blog/blog_ind.html', context)

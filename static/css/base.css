@@ -194,7 +194,14 @@ body {
     color: #fff;
 }
 
+/* Blog */
+.title-blog {
+    font-size: 16px;
+}
 
+.box-blog {
+    background: url('/media/omega3_watch.jpeg'); 
+}
 /* FAQ */
 .img-feat {
     width: 300px;

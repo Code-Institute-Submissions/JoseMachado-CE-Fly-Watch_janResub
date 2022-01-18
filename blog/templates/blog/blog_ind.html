@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block page_header %}
+<div class="header-container">
+    <div class="row">
+        <div class="col"></div>
+    </div>
+</div>
+{% endblock %}
+
+{% block content %}
+<div class="overlay"></div>
+
+<hr class="featurette-divider text-white">
+<h2 class="text-white text-center mt-5">Watch Blogas</h2>
+<div class="container bg-black text-black pt-4 mt-5">
+    <div class="row featurette">
+        <div class="col-12 col-md-4 my-3">
+            {% if post.image %}
+            <img src="{{ post.image.url }}" class="card-img-top img-fluid post-image" alt="{{ post.title }}">
+            {% else %}
+            <img src="{{ MEDIA_URL }}no_image.png" class="card-img-top img-fluid post-image" alt="{{ post.title }}">
+            {% endif %}
+        </div>
+        <div class="col-12 col-md-8 mb-3">
+            <h4 class="text-uppercase my-3 text-white">{{ post.title }}</h4>
+            {% if post.author %}
+            <p class="mb-2 text-white">Author: {{ post.author }}</p>
+            {% endif %}
+            <hr class="title-line">
+            <p class="mb-2 text-white">{{ post.article }}</p>
+            <a href="{% url 'blog' %}">Back to blog</a>
+        </div>
+    </div>
+</div>
+
+
+{% endblock %}
+
+{% block postloadjs %}
+
+{% endblock %}
