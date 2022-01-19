@@ -38,17 +38,30 @@ def add_blog(request):
     if request.method == 'POST':
         form = BlogForm(request.POST, request.FILES)
         if form.is_valid():
-            form.save()
+            post = form.save()
             messages.success(request, 'Successfully post added!')
-            return redirect(reverse('home'))
+            return redirect(reverse('blog_ind', args=[post.id]))
         else:
             messages.error(request, 'Failed to add post. Please ensure the form is valid.')
     else:
         form = BlogForm()
         
-    template = 'blog/add_blog.html'
     context = {
         'form': form,
     }
 
-    return render(request, template, context)
+    return render(request, 'blog/add_blog.html', context)
+
+
+@login_required
+def delete_blog(request, post_id):
+    """ Delete a blog post on the blog page """
+    if not request.user.is_superuser:
+        messages.error(request, 'Sorry, \
+            only store owners are authorised to do that.')
+        return redirect(reverse('home'))
+
+    post = get_object_or_404(PostBlog(), pk=post_id)
+    post.delete()
+    messages.success(request, f'Blog post: {post.title} deleted!')
+    return redirect(reverse('blog'))
