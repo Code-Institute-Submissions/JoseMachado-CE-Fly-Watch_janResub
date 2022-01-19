@@ -14,37 +14,33 @@
 <div class="container">
     <div class="p-4 p-md-5 mb-4 text-white rounded bg-white box-blog">
       <div class="col-md-6 px-0">
-        <h1 class="display-4 fst-italic text-white">Title of a longer featured blog post</h1>
+        <h1 class="display-4 fst-italic text-white">FlyWatch Blog a quick view.</h1>
         <p class="lead my-3 text-white">Multiple lines of text that form the lede, informing new readers quickly and efficiently about what’s most interesting in this post’s contents.</p>
-        <p class="lead mb-0"><a href="#" class="text-white fw-bold text-primary">Continue reading...</a></p>
+        <p class="lead mb-0"><a href="#" class="btn btn-outline-black rounded-2 text-uppercase title-blog">Continue reading...</a></p>
       </div>
     </div>
 </div>
-
-<div class="container text-white pt-4 ">
-    <div class="row mb-2">
-      {% for post in posts %}
-      <div class="col-md-6">
-        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-          <div class="col p-4 d-flex flex-column position-static">
-            <strong class="d-inline-block mb-2 text-primary">World</strong>
-            <h3 class="title-blog">{{ post.title }}</h3>
-            <div class="mb-1 text-muted">Nov 12</div>
-            <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-            <a href="#" class="stretched-link">Continue reading</a>
-          </div>
-          {% if post.image %}
-            <div class="col-auto d-none d-lg-block">
-              <img src="{{ post.image.url }}" class="bd-placeholder-img" width="200" height="250">
+<div class="album py-5 bg-light">
+  <div class="container">
+    {% for post in posts %}
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+      <div class="col">
+        <div class="card shadow-sm">
+          <img src="{{ MEDIA_URL }}rolex_gmtmasterpepsi.jpeg" class="rounded-circle img-promotion mx-auto" width="100%" height="225%" alt="product">
+          <div class="card-body">
+            <p class="card-text title-blog"> {{ post.title }}</p>
+            <p class="card-text">{{ post.preview }}</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <a href="{% url 'blog_ind' post.id %}" class="btn btn-sm btn-outline-secondary">Read More</a>
+              <small class="text-muted">{{ post_date }}</small>
             </div>
-          {% endif %}
+          </div>
         </div>
       </div>
-
-      {% endfor %}
     </div>
+    {% endfor %}
+  </div>
 </div>
-
 {% endblock %}
 
 {% block postloadjs %}
