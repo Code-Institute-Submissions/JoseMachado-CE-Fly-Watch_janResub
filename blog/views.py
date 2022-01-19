@@ -40,7 +40,7 @@ def add_blog(request):
         if form.is_valid():
             form.save()
             messages.success(request, 'Successfully post added!')
-            return redirect(reverse('blog_ind'))
+            return redirect(reverse('home'))
         else:
             messages.error(request, 'Failed to add post. Please ensure the form is valid.')
     else:
