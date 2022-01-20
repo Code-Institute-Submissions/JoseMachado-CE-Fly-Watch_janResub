@@ -55,13 +55,13 @@ def add_blog(request):
 
 @login_required
 def delete_blog(request, post_id):
-    """ Delete a blog post on the blog page """
+    """ Delete a blog post on blog page """
     if not request.user.is_superuser:
         messages.error(request, 'Sorry, \
-            only store owners are authorised to do that.')
+            admins authorised to do that.')
         return redirect(reverse('home'))
 
-    post = get_object_or_404(PostBlog(), pk=post_id)
+    post = get_object_or_404(PostBlog, pk=post_id)
     post.delete()
     messages.success(request, f'Blog post: {post.title} deleted!')
     return redirect(reverse('blog'))
