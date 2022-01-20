@@ -65,3 +65,32 @@ def delete_blog(request, post_id):
     post.delete()
     messages.success(request, f'Blog post: {post.title} deleted!')
     return redirect(reverse('blog'))
+
+
+@login_required
+def edit_blog(request, post_id):
+    """ Function to edit blog posts """
+    if not request.user.is_superuser:
+        messages.error(request, 'Only admin can do such.')
+        return redirect(reverse('home'))
+    product = get_object_or_404(Product, pk=product_id)
+    if request.method == 'POST':
+        post = BlogForm(request.POST, request.FILES)
+        if form.is_valid():
+            post = form.save()
+            messages.success(request, 'Post updated!!')
+            return redirect(reverse('blog_ind', args=[post.id]))
+        else:
+            messages.error(request, 'It was not this time. Please, Try it again!')
+    else:
+        form = BlogForm(instance=post)
+        messages.info(request, f'You are editing {post.title}')
+
+    template = 'blog/edit_blog.html'
+    context = {
+        'form': form,
+        'product': product,
+    }
+
+    return render(request, template, context)
+
