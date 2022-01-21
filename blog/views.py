@@ -73,9 +73,9 @@ def edit_blog(request, post_id):
     if not request.user.is_superuser:
         messages.error(request, 'Only admin can do such.')
         return redirect(reverse('home'))
-    product = get_object_or_404(Product, pk=product_id)
+    post = get_object_or_404(PostBlog, pk=post_id)
     if request.method == 'POST':
-        post = BlogForm(request.POST, request.FILES)
+        form = BlogForm(request.POST, request.FILES, instance=post)
         if form.is_valid():
             post = form.save()
             messages.success(request, 'Post updated!!')
@@ -89,7 +89,7 @@ def edit_blog(request, post_id):
     template = 'blog/edit_blog.html'
     context = {
         'form': form,
-        'product': product,
+        'post': post,
     }
 
     return render(request, template, context)
