@@ -220,6 +220,8 @@ body {
     color: #000 !important;
     border: 1px solid #000;
 }
+
+
 /* FAQ */
 .img-feat {
     width: 300px;
@@ -388,6 +390,11 @@ a.category-badge > span.badge:hover {
     .nav-link i.fa-lg {
         font-size: 1rem;
     }
+
+    #index-home {
+        height: 40%;
+    }
+
 }
 @media (min-width: 768px) {
     .m-md-3 {
@@ -414,7 +421,21 @@ a.category-badge > span.badge:hover {
         height: 50%;
     }
 
-   
+    .blog-description-phone {
+        font-size: 16px;
+    }
+    .title-phone-screen {
+        font-size: 2rem;
+        margin-top: 35px;
+    }
+
+    .box-watch-phone {
+        margin-bottom: 30px;
+    }
+
+    #index-home {
+        height: 0;
+    }
 }
 
 @media (max-width: 320px) {
