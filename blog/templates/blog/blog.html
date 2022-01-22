@@ -26,7 +26,7 @@
 {% if request.user.is_superuser %}
 <div class="container">
   <a href="{% url 'add_blog' %}" class="btn btn-outline-black rounded-2 text-uppercase mb-2">Add a Post</a>
-{% endif %}
+  {% endif %}
 </div>
 <div class="container bg-light">
   <div class="row">
@@ -44,7 +44,8 @@
         <div class="card-body pb-0">
           <a href="{% url 'blog_ind' post.id %}" class="text-small title-blog">{{ post.title }}</a>
           <p class="mb-0 text-small">{{ post.preview }}</p>
-          <a href="{% url 'blog_ind' post.id %}" class="btn btn-blog-link rounded-2 text-uppercase mt-2 mb-2">Read More</a>
+          <a href="{% url 'blog_ind' post.id %}" class="btn btn-blog-link rounded-2 text-uppercase mt-2 mb-2">Read
+            More</a>
         </div>
         {% if request.user.is_superuser %}
         <small class="ml-3">
