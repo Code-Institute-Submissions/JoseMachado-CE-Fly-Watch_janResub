@@ -42,10 +42,12 @@ def add_blog(request):
             messages.success(request, 'Successfully post added!')
             return redirect(reverse('blog_ind', args=[post.id]))
         else:
-            messages.error(request, 'Failed to add post. Please ensure the form is valid.')
+            messages.error(
+                request,
+                'Failed to add post. Please ensure the form is valid.')
     else:
         form = BlogForm()
-        
+
     context = {
         'form': form,
     }
@@ -81,7 +83,8 @@ def edit_blog(request, post_id):
             messages.success(request, 'Post updated!!')
             return redirect(reverse('blog_ind', args=[post.id]))
         else:
-            messages.error(request, 'It was not this time. Please, Try it again!')
+            messages.error(
+                request, 'It was not this time. Please, Try it again!')
     else:
         form = BlogForm(instance=post)
         messages.info(request, f'You are editing {post.title}')
@@ -93,4 +96,3 @@ def edit_blog(request, post_id):
     }
 
     return render(request, template, context)
-

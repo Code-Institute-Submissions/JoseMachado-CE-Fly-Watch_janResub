@@ -14,7 +14,6 @@ import stripe
 import json
 
 
-"""Function to cache checkout data"""
 @require_POST
 def cache_checkout_data(request):
     try:
@@ -32,8 +31,8 @@ def cache_checkout_data(request):
         return HttpResponse(content=e, status=400)
 
 
-"""Function to checkout"""
 def checkout(request):
+    """Function to checkout"""
     stripe_public_key = settings.STRIPE_PUBLIC_KEY
     stripe_secret_key = settings.STRIPE_SECRET_KEY
 
@@ -78,14 +77,16 @@ def checkout(request):
                     return redirect(reverse('view_bag'))
 
             request.session['save_info'] = 'save-info' in request.POST
-            return redirect(reverse('checkout_success', args=[order.order_number]))
+            return redirect(reverse(
+                'checkout_success', args=[order.order_number]))
         else:
             messages.error(request, 'There was an error with your form. \
                 Please double check your information.')
     else:
         bag = request.session.get('bag', {})
         if not bag:
-            messages.error(request, "There's nothing in your bag at the moment")
+            messages.error(
+                request, "There's nothing in your bag at the moment")
             return redirect(reverse('products'))
 
         current_bag = bag_contents(request)
@@ -130,7 +131,6 @@ def checkout(request):
     return render(request, template, context)
 
 
-"""Function when checkout goes well"""
 def checkout_success(request, order_number):
     """
     Handle successful checkouts

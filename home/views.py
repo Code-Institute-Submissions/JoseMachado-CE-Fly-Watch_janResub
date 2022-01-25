@@ -1,4 +1,5 @@
 from django.shortcuts import render
+from .models import Faq
 
 
 def index(request):
@@ -10,6 +11,11 @@ def index(request):
 
 
 def faq(request):
-    """Webstore FAQs"""
-    template = 'home/faq.html'
-    return render(request, template)
+    """ Page that returns with all posts """
+    faqs = Faq.objects.all()
+
+    context = {
+        'faqs': faqs,
+    }
+
+    return render(request, 'home/faq.html', context)
