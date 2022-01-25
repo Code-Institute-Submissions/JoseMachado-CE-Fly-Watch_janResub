@@ -12,5 +12,4 @@ def index(request):
 def faq(request):
     """Webstore FAQs"""
     template = 'home/faq.html'
-    
     return render(request, template)

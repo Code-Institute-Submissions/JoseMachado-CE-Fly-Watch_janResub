@@ -395,6 +395,10 @@ a.category-badge > span.badge:hover {
         height: 35%;
     }
 
+    .footer-nav-item {
+        font-size: 40px;
+    }
+
 }
 @media (min-width: 768px) {
     .m-md-3 {
@@ -403,6 +407,10 @@ a.category-badge > span.badge:hover {
     
     .h-90 {
         height: 70%;
+    }
+
+    .footer-nav-item {
+        font-size: 14px;
     }
 }
 @media (max-width: 420px) {
