@@ -186,7 +186,7 @@ To make the flowchart for the purchasing process I decided to use [Draw.io](http
 For the project I set up 12 database Models which you can see in the image below. 
 I have highlighted the relationships between the various models.
 
-![Database Structure](images-readme/flywatch-data-flow.png)
+![Database Structure](images-readme/flywatch_dataflow.png)
 
 <a></a>
 
