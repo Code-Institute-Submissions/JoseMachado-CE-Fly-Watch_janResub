@@ -140,6 +140,8 @@ The font used for this website was the 'Roboto' from [Google Fonts](https://font
 #### Structure
 
 The webstore will start with the land page which contains the navigation on top of the background image.
+
+All the website is organized and good indentation.
 Other than land page, the website also has the following pages:
 
 * ### Home Page
@@ -260,10 +262,13 @@ There is a function in the bag that saves the products that were not bought thro
 * [Footer](#footer)
 
 I have tested all the html files using [HTML Validator](https://validator.w3.org/).
+From the HTML the only warning that came out was an empty heading but this heading is used to have one of the main pages on the home page.
+
 I have tested all the CSS files using  [CSS Validator](https://jigsaw.w3.org/css-validator/).
 I have tested all the JS files using [Javascript Validator](https://jshint.com/).
 
 ![CSS Validation](images-readme/cssvalidation.PNG)
+![CSS Validation](images-readme/htmlvalidator.jpg)
 
 ## Homepage
 ### **Responsiveness**
@@ -379,23 +384,31 @@ The order details is also shown well on the page after the order is placed succe
 ### Responsiveness
 #### Where did I test?
 I have tested the page with the home products on all types of devices such as Desktop, tablet and iphone.
+I have also tested the confirmation email.
 
 #### What did I test?
 * Profile form
 * Right information being displayed on the page
 * Order history
+* Confirmation email
 
 
 #### Conclusion
 The profile page is supposed to show the customer details after they added their own information to the website.
 It also supposed to show the customer order history on the page which can remind the customer of a specific order and then the change of repeating that same order.
+The confirmation email is coming out properly as picture below will show. I also added a flywatch name to the confirmation email just to give it better appearance 
 
 ### Functionality
 The customer information is displayed on the website if the customer is already registered on the website.
 If the customer is a new the form will be there to be filled out and then in the next time when the customer places an order, their details will be saved.
 The order history is there also to let the customer know about their last orders.
 
-![Form order](images-readme/form-order.png) 
+![Form order](images-readme/form-order.png)
+
+![Confirmation Email from Heroku](images-readme/confirmationEmailheroku.jpg)
+
+![Confirmation Email from Gitpod](images-readme/confirmationGitpod.jpg)
+
 
 ## Navigation 
 ### Responsiveness
@@ -646,10 +659,3 @@ This set up will allow your site to use Postgres in deployment and sqlite3 in de
 I wanted to start giving credits to Code Institute for giving me this opportunity to do this course and see how this course played a big role in my life. I wanted to thank all the people that work for Code Institute, all the tutors and the other staff that make the life of students a way better and smother.
 I wanted to thank again my tutor https://github.com/eventyret, for giving me all the support needed to finish the website. I wanted to thank also Code Institute and Slack for all support. And God for make this all achievable.
 After Code Institute I wanted to thank God for all the patience and time put on this course.
-
-
-
-
-
-
-
