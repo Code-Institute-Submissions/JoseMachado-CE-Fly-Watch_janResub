@@ -1,6 +1,6 @@
 # [FlyWatch](https://flywatch-jm.herokuapp.com/)
 
-![Mock up FlyWatch](images-readme/mockimageFlywatch.PNG)
+![Mock up FlyWatch](images-readme/mockimagenew.jpg)
 
 ## [FlyWatch](https://flywatch-jm.herokuapp.com/) 
 
